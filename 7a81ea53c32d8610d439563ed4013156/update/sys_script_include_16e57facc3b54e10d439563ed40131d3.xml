@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_1386762_sales_cr.add_product_in_opportunity</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>add_product_in_opportunity</name>
+        <script><![CDATA[var add_product_in_opportunity = Class.create();
+add_product_in_opportunity.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    productInOrder: function() {
+        var gr = GlideRecord('x_1386762_sales_cr_products');
+        gr.addEncodedQuery('u_procategoryANYTHING');
+        gr.query();
+
+
+		
+        var arr ="";
+
+        while (gr.next()) {
+            if (arr.indexOf(gr.u_procategory) == -1) {
+                arr = arr +"," +gr.u_procategory;
+            }
+
+        }
+		gs.log("Hello");
+		
+		return arr;
+        
+
+    },
+
+    type: 'add_product_in_opportunity'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 11:47:50</sys_created_on>
+        <sys_id>16e57facc3b54e10d439563ed40131d3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>add_product_in_opportunity</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_include_16e57facc3b54e10d439563ed40131d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 17:02:49</sys_updated_on>
+    </sys_script_include>
+</record_update>

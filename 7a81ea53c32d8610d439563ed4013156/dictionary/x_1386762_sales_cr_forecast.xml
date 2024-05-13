@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3d47f09bc3b98a50d439563ed4013178" extends="task" label="Forecast" max_length="40" name="x_1386762_sales_cr_forecast" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account Name" max_length="40" name="u_accname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Amount" max_length="40" name="u_amount" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed Date" max_length="40" name="u_closedate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Closed Date" max_length="40" name="u_closeddate" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserDisplayName()" label="Forecast Owner" max_length="32" name="u_forecastowner" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Forecast Category" max_length="40" name="u_forecategory" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Pipeline" sequence="0" value="pipeline"/>
+                <element inactive_on_update="false" label="Closed" sequence="1" value="closed"/>
+                <element inactive_on_update="false" label="Omitted" sequence="2" value="omitted"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Number" max_length="40" name="u_oppname" reference="x_1386762_sales_cr_opportunity" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportuntiy Name" max_length="40" name="u_opportuntiyname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Probability" max_length="40" name="u_probability" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" max_length="40" name="u_stage" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed Lost" value="closed lost"/>
+                <element inactive_on_update="false" label="Closed Won" value="closed won"/>
+                <element inactive_on_update="false" label="Negotiation/Review" value="negotiation/review"/>
+                <element inactive_on_update="false" label="Proposal/Price Quote" value="proposal/price quote"/>
+                <element inactive_on_update="false" label="Prospecting" value="prospecting"/>
+                <element inactive_on_update="false" label="Qualification" value="qualification"/>
+            </choice>
+        </element>
+    </element>
+</database>

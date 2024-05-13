@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 08:18:37</sys_created_on>
+        <sys_id>159d2f63c3a50a10d439563ed4013111</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_contact.x_1386762_sales_cr.contact_user</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_security_acl display_value="x_1386762_sales_cr_contact">559d2f63c3a50a10d439563ed401310e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_159d2f63c3a50a10d439563ed4013111</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 08:18:37</sys_updated_on>
+        <sys_user_role display_value="x_1386762_sales_cr.contact_user" name="x_1386762_sales_cr.contact_user">499d6b63c3a50a10d439563ed401310b</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

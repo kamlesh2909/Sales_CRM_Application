@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1386762_sales_cr_quote">u_status=accepted^EQ<item display_value="Accepted" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="accepted"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Accepted</label>
+        <name>Accepted</name>
+        <order>500</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 04:14:11</sys_created_on>
+        <sys_id>554292e4c3bd0e10d439563ed401316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accepted</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_process_flow_554292e4c3bd0e10d439563ed401316f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 04:14:11</sys_updated_on>
+        <table>x_1386762_sales_cr_quote</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_process_flow_554292e4c3bd0e10d439563ed401316f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1386762_sales_cr_quote">u_status=accepted^EQ<item display_value="Accepted" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="accepted"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Accepted</label><name>Accepted</name><order>500</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:14:11</sys_created_on><sys_id>554292e4c3bd0e10d439563ed401316f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Accepted</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_process_flow_554292e4c3bd0e10d439563ed401316f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:14:11</sys_updated_on><table>x_1386762_sales_cr_quote</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>-533225886</payload_hash>
+        <record_name>Accepted</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 04:14:11</sys_created_on>
+        <sys_id>4a621228c3bd0e10d439563ed4013164</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f092949790000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 04:14:11</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>4e62122825bd0e1018c93a866a745863</update_guid>
+        <update_guid_history>4e62122825bd0e1018c93a866a745863:-533225886</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 10:00:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>477001b1f9934e58b19feda53fb5d904</sys_id>
+        <sys_metadata>554292e4c3bd0e10d439563ed401316f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accepted</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_process_flow_554292e4c3bd0e10d439563ed401316f</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_554292e4c3bd0e10d439563ed401316f">4a621228c3bd0e10d439563ed4013164</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 10:00:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

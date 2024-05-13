@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sales CRM Application">5d1766d7c32d8610d439563ed40131ef</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New Product</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1386762_sales_cr_products</name>
+        <order>1200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1386762_sales_cr.products_user,Sales Agent</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 05:22:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ff0eae8c3fd0e10d439563ed40131f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Create New Product</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_app_module_7ff0eae8c3fd0e10d439563ed40131f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 04:26:42</sys_updated_on>
+        <timeline_page/>
+        <title>Create New Product</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_app_module_7ff0eae8c3fd0e10d439563ed40131f7</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sales CRM Application">5d1766d7c32d8610d439563ed40131ef</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New Product</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1386762_sales_cr_products</name><order>1200</order><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1386762_sales_cr.products_user,Sales Agent</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 05:22:41</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7ff0eae8c3fd0e10d439563ed40131f7</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Create New Product</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_app_module_7ff0eae8c3fd0e10d439563ed40131f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-06 04:26:42</sys_updated_on><timeline_page/><title>Create New Product</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1895330458</payload_hash>
+        <record_name>Create New Product</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 04:26:42</sys_created_on>
+        <sys_id>dcf19d38c3468290d439563ed4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f4c276a250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 04:26:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>94f19d386f468290f04070bcc53cf991</update_guid>
+        <update_guid_history>94f19d386f468290f04070bcc53cf991:1895330458,b99b36f7067d4e508312ff3876566a51:-526532865,2912a66c04fd0e10b301a9a803dc6b85:440223970</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New Product">0e787a34c38e8290d439563ed40131cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 11:54:40</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>186bbe25af46489a85d235b94e5deb29</sys_id>
+        <sys_metadata>7ff0eae8c3fd0e10d439563ed40131f7</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New Product</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_app_module_7ff0eae8c3fd0e10d439563ed40131f7</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7ff0eae8c3fd0e10d439563ed40131f7">dcf19d38c3468290d439563ed4013191</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 11:54:40</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

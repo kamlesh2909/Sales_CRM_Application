@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1386762_sales_cr_task_for_lead">u_status=not started^EQ<item display_value="Not Started" endquery="false" field="u_status" goto="false" newquery="false" operator="=" or="false" value="not started"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Not Started</label>
+        <name>Not Started</name>
+        <order>100</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 07:28:31</sys_created_on>
+        <sys_id>576bb5f0c34a8290d439563ed401318f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Not Started</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_process_flow_576bb5f0c34a8290d439563ed401318f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 07:28:31</sys_updated_on>
+        <table>x_1386762_sales_cr_task_for_lead</table>
+    </sys_process_flow>
+</record_update>

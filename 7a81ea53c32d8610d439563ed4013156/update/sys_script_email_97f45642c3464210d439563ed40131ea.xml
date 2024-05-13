@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Quotation Approval for Manager</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+
+    var gr = new GlideRecord('x_1386762_sales_cr_quote');
+    gr.addQuery('number', current.number);
+    gr.query();
+    if (gr.next()) {
+
+
+
+        // template.print('Quote Name :'+gr.u_quotename+'<br>'+'Product Details : <br> ');
+        var gr1 = new GlideRecord('x_1386762_sales_cr_orders');
+        gr1.addEncodedQuery('u_opportunityname.numberSTARTSWITH' + gr.u_oppname.getDisplayValue());
+        gr1.query();
+
+        while (gr1.next()) {
+            
+            template.print('<b>Category:</b> '+gr1.u_productcategory.getDisplayValue()+ '<br>'+
+			'<b>Item:</b> '+gr1.u_productitem.getDisplayValue()+  ' <br> '+
+			'<b>Item Description: </b>'+gr1.u_productdescription+  ' <br> '+
+			'<b>Price:</b> '+gr1.u_productprice+  '<br>  '+
+			'<b>Quantity:</b> '+gr1.u_quantity+  ' <br> '+
+			'<b>Grand Total:</b> '+gr1.u_grandtotal+  '<br>  '+
+			'<br><br>');
+        }
+
+		template.print('<b>Total Amount:</b>'+gr.u_grandtotal+'<br>'+
+
+		'<b>Discount:</b> '+gr.u_discount+'<br>'+
+		'<b>Grand Total:</b> '+gr.u_grandtotalamount+'<br>'
+
+		);
+
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 06:42:52</sys_created_on>
+        <sys_id>97f45642c3464210d439563ed40131ea</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>Quotation Approval for Manager</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_email_97f45642c3464210d439563ed40131ea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 10:09:20</sys_updated_on>
+    </sys_script_email>
+</record_update>

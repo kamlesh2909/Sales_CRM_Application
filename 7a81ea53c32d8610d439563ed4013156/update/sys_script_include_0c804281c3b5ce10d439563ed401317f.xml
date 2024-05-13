@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1386762_sales_cr.storegrandtotal</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>storegrandtotal</name>
+        <script><![CDATA[var storegrandtotal = Class.create();
+storegrandtotal.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+
+    storegrandtotal: function() {
+        var value = this.getParameter('sysparm_value');
+        var count = new GlideAggregate('x_1386762_sales_cr_orders');
+        count.addEncodedQuery('u_opportunityname.number=' + value);
+
+        //count.addQuery('sys_id', value );
+        count.addAggregate('SUM', 'u_grandtotal');
+        count.addAggregate('SUM', 'u_productprice');
+
+        count.setGroup(false);
+        count.query();
+
+        var result = 0;
+        var total = 0;
+
+        while (count.next()) {
+            result = count.getAggregate('SUM', 'u_grandtotal');
+            total = count.getAggregate('SUM', 'u_productprice');
+
+        }
+
+        return result + "," + total;
+    },
+
+    type: 'storegrandtotal'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-24 17:39:06</sys_created_on>
+        <sys_id>0c804281c3b5ce10d439563ed401317f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>storegrandtotal</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_include_0c804281c3b5ce10d439563ed401317f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-24 18:59:18</sys_updated_on>
+    </sys_script_include>
+</record_update>

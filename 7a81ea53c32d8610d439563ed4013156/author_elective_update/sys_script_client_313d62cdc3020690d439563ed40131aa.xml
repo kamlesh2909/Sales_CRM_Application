@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>test tejas</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+
+
+var a=g_form.getValue("short_description");
+
+if(a==="")
+{
+	alert("shor DESCRIPTION IS EAMPTY ");
+}
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2024-05-07 05:47:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>313d62cdc3020690d439563ed40131aa</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>test tejas</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_client_313d62cdc3020690d439563ed40131aa</sys_update_name>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2024-05-07 05:52:42</sys_updated_on>
+        <table>incident</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_script_client_313d62cdc3020690d439563ed40131aa</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;test tejas&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+
+
+var a=g_form.getValue("short_description");
+
+if(a==="")
+{
+	alert("shor DESCRIPTION IS EAMPTY ");
+}
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sanket&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-07 05:47:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;313d62cdc3020690d439563ed40131aa&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;test tejas&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sales CRM Application"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_313d62cdc3020690d439563ed40131aa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sanket&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-07 05:52:42&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-172724598</payload_hash>
+        <record_name>test tejas</record_name>
+        <reverted_from/>
+        <source>8eaaad50c3f5ca10d439563ed401319f</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2024-05-07 05:52:42</sys_created_on>
+        <sys_id>753f6e01c3420690d439563ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f519c825f0000001</sys_recorded_at>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2024-05-07 05:52:42</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>3d3f6e01c2420690041f2420ecbd89da</update_guid>
+        <update_guid_history>3d3f6e01c2420690041f2420ecbd89da:-172724598,531faa4100420690a83f12732af10ec1:-1359519644,3b7e2601514206909ffa3a24ebf3bf70:244003511,17edeecd1f0206904aba486cd7157eff:-829144674</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sanket</sys_created_by>
+        <sys_created_on>2024-05-07 05:53:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>4cee255b472549308218abb403d98100</sys_id>
+        <sys_metadata>313d62cdc3020690d439563ed40131aa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test tejas</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Incident">d79f659a8db0021087de63ac7f1f00a4</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_script_client_313d62cdc3020690d439563ed40131aa</sys_update_name>
+        <sys_update_version display_value="sys_script_client_313d62cdc3020690d439563ed40131aa">753f6e01c3420690d439563ed40131db</sys_update_version>
+        <sys_updated_by>sanket</sys_updated_by>
+        <sys_updated_on>2024-05-07 05:53:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

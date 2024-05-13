@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_reference_2</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 09:13:49</sys_created_on>
+        <sys_id>8570b6d7c36d8610d439563ed4013147</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>u_reference_2</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_ui_policy_action_8570b6d7c36d8610d439563ed4013147</sys_update_name>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 09:18:55</sys_updated_on>
+        <table>x_1386762_sales_cr_convert_lead</table>
+        <ui_policy display_value="Account name refrence will be hidden if acc type is create new">82ef6a97c36d8610d439563ed40131ed</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=8570b6d7c36d8610d439563ed4013147"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_policy_action_8570b6d7c36d8610d439563ed4013147</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>u_reference_2</field><field_message/><field_message_type>none</field_message_type><mandatory>true</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 09:13:49</sys_created_on><sys_id>8570b6d7c36d8610d439563ed4013147</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_reference_2</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_policy_action_8570b6d7c36d8610d439563ed4013147</sys_update_name><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 09:18:55</sys_updated_on><table>x_1386762_sales_cr_convert_lead</table><ui_policy display_value="Account name refrence will be hidden if acc type is create new">82ef6a97c36d8610d439563ed40131ed</ui_policy><value/><value_action>ignore</value_action><visible>true</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=8570b6d7c36d8610d439563ed4013147"/></record_update>]]></payload>
+        <payload_hash>1101935763</payload_hash>
+        <record_name>u_reference_2</record_name>
+        <reverted_from/>
+        <source>8963e617c32d8610d439563ed40131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 09:18:55</sys_created_on>
+        <sys_id>8bc1b65bc36d8610d439563ed40131b9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef5a6d6fc0000001</sys_recorded_at>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 09:18:55</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>cfc17a1b9e6d86103537ea2f1dd95c9a</update_guid>
+        <update_guid_history>cfc17a1b9e6d86103537ea2f1dd95c9a:1101935763,58a0bad7716d861094a3663fa11e5967:-631190352</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-22 05:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>c0262fca179f452f98ae7efa7e701c11</sys_id>
+        <sys_metadata>8570b6d7c36d8610d439563ed4013147</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_reference_2</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="">82ef6a97c36d8610d439563ed40131ed</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_8570b6d7c36d8610d439563ed4013147</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_8570b6d7c36d8610d439563ed4013147">8bc1b65bc36d8610d439563ed40131b9</sys_update_version>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-22 05:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1386762_sales_cr_opportunity</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1386762_sales_cr_opportunity">u_stage=proposal/price quote^u_quotecount=0^NQu_quotecountVALCHANGES^ORu_stage=negotiation/review^EQ<item display_value="Proposal/Price Quote" endquery="false" field="u_stage" goto="false" newquery="false" operator="=" or="false" value="proposal/price quote"/>
+            <item endquery="false" field="u_quotecount" goto="false" newquery="false" operator="=" or="false" value="0"/>
+            <item endquery="false" field="u_quotecount" goto="false" newquery="true" operator="VALCHANGES" or="false" value=""/>
+            <item display_value="Negotiation/Review" endquery="false" field="u_stage" goto="false" newquery="false" operator="=" or="true" value="negotiation/review"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Generate Quote</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+    //gs.log('In generate quote br');
+    var gr = new GlideRecord("x_1386762_sales_cr_quote");
+    gr.addEncodedQuery('u_oppname.numberSTARTSWITH' + current.number + '^u_status=draft');
+    gr.query();
+
+	gr.next();
+gs.info(gr.sys_id);
+	if(gr.getRowCount() == 1 ){
+
+		var gr1 = new GlideRecord('x_1386762_sales_cr_quote');
+		gr1.addEncodedQuery('sys_idSTARTSWITH'+gr.sys_id);
+		gr1.query();
+
+		if(gr1.next()){
+			gr1.u_grandtotal = current.u_amount;
+			gr1.update();
+		}
+	}
+    else if (current.u_grandtotalamount == 0) {
+
+        gr.initialize();
+        gr.u_oppname = current.sys_id;
+        gr.u_quotename = current.u_contactname + "-" + current.u_oppname;
+        gr.u_grandtotal = current.u_amount;
+        gr.u_reference_6 = current.u_contactname;
+        gr.u_email = current.u_contactemail;
+        gr.u_phone = current.u_contactphone;
+        gr.insert();
+
+    }
+
+})(current, previous);
+
+
+
+
+// if(gr.next())
+// {
+// 	var gr1 = new GlideRecord("x_1386762_sales_cr_quote");
+// 	gr1.addEncodedQuery('sys_idSTARTSWITH'+gr.sys_id);
+// 	gr1.query();
+
+// 	if(gr1.next())
+// 	{
+// 		gr1.u_grandtotal = current.u_amount;
+// 		gr1.update();
+
+// 	}
+// }
+
+
+
+// var cnt = current.getValue('u_quotecount');
+//current.u_quotecount = ++cnt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// && !(gr.u_status != "rejected" )
+
+// u_oppname.numberSTARTSWITH' + current.number
+// Add your code here
+
+// var gr = new GlideRecord("x_1386762_sales_cr_quote");
+// gr.addEncodedQuery('u_oppname.numberSTARTSWITH' + current.number );
+// gr.query();
+
+
+
+// if (current.u_stage == 'negotiation/review' ) {
+//     gr.u_oppname = current.sys_id;
+//     gr.u_quotename = current.u_contactname + "-" + current.u_oppname;
+
+//     gr.u_grandtotal = current.u_amount;
+
+//     gr.u_reference_6 = current.u_contactname;
+
+//     gr.u_email = current.u_contactemail;
+
+//     gr.u_phone = current.u_contactphone;
+
+//     gr.insert();
+// }
+
+
+// if (!gr.getRowCount() != 0 || (gr.getRowCount() != 0 && current.u_stage == 'negotiation/review') && (gr.u_status != "draft" )){
+
+//     gr.initialize();
+//     gr.u_oppname = current.sys_id;
+//     gr.u_quotename = current.u_contactname + "-" + current.u_oppname;
+
+//     gr.u_grandtotal = current.u_amount;
+
+//     gr.u_reference_6 = current.u_contactname;
+
+//     gr.u_email = current.u_contactemail;
+
+//     gr.u_phone = current.u_contactphone;
+
+//     gr.insert();
+// }]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 06:56:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>049801d1c3b50250d439563ed4013196</sys_id>
+        <sys_mod_count>121</sys_mod_count>
+        <sys_name>Generate Quote</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_049801d1c3b50250d439563ed4013196</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-08 04:51:06</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=049801d1c3b50250d439563ed4013196"/>
+</record_update>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=false" db_object_id="b0a66e1bc32d8610d439563ed40131b3" extends="task" label="Leads" max_length="40" name="x_1386762_sales_cr_leads" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Billing City" max_length="40" name="u_billingcity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_billingcountry" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_billingstate" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing Street" max_length="40" name="u_billingstreet" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="6" name="u_billingzipcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Company" mandatory="true" max_length="40" name="u_company" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="u_firstname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="u_lastname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName()" label="Lead Owner" max_length="40" name="u_leadowner" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="open - not contacted" label="Lead Status" max_length="40" name="u_leadstatus" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Open - Not Contacted" sequence="0" value="open - not contacted"/>
+                <element inactive_on_update="false" label="Working - Contacted" sequence="1" value="working - contacted"/>
+                <element inactive_on_update="false" label="Closed - Converted" sequence="2" value="closed - converted"/>
+                <element inactive_on_update="false" label="Closed - Not Converted" sequence="3" value="closed - not converted"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Phone" mandatory="true" max_length="10" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rating" max_length="40" name="u_rating" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Warm" sequence="0" value="warm"/>
+                <element inactive_on_update="false" label="Hot" sequence="1" value="hot"/>
+                <element inactive_on_update="false" label="Cold" sequence="2" value="cold"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserDisplayName()" label="Lead Owner" max_length="32" name="u_referenceleadowner" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Salutation" mandatory="true" max_length="40" name="u_salutation" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mr." sequence="0" value="mr."/>
+                <element inactive_on_update="false" label="Ms." sequence="1" value="ms."/>
+                <element inactive_on_update="false" label="Mrs." sequence="2" value="mrs."/>
+                <element inactive_on_update="false" label="Dr." sequence="3" value="dr."/>
+                <element inactive_on_update="false" label="Prof." sequence="4" value="prof."/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="6" name="u_zipcode" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Work Notes" max_length="4000" name="worknotes" type="journal"/>
+    </element>
+</database>

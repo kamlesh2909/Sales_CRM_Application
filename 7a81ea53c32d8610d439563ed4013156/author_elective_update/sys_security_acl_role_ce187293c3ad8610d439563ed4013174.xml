@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 09:46:26</sys_created_on>
+        <sys_id>ce187293c3ad8610d439563ed4013174</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_opportunity.x_1386762_sales_cr.opportunity_user</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_security_acl display_value="x_1386762_sales_cr_opportunity">ce187293c3ad8610d439563ed4013171</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ce187293c3ad8610d439563ed4013174</sys_update_name>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 09:46:26</sys_updated_on>
+        <sys_user_role display_value="x_1386762_sales_cr.opportunity_user" name="x_1386762_sales_cr.opportunity_user">79187a53c3ad8610d439563ed4013115</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_security_acl_role_ce187293c3ad8610d439563ed4013174</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 09:46:26</sys_created_on><sys_id>ce187293c3ad8610d439563ed4013174</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1386762_sales_cr_opportunity.x_1386762_sales_cr.opportunity_user</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_security_acl display_value="x_1386762_sales_cr_opportunity">ce187293c3ad8610d439563ed4013171</sys_security_acl><sys_update_name>sys_security_acl_role_ce187293c3ad8610d439563ed4013174</sys_update_name><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 09:46:26</sys_updated_on><sys_user_role display_value="x_1386762_sales_cr.opportunity_user" name="x_1386762_sales_cr.opportunity_user">79187a53c3ad8610d439563ed4013115</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>811583237</payload_hash>
+        <record_name>x_1386762_sales_cr_opportunity.x_1386762_sales_cr.opportunity_user</record_name>
+        <reverted_from/>
+        <source>8963e617c32d8610d439563ed40131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 09:46:26</sys_created_on>
+        <sys_id>ca187293c3ad8610d439563ed4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef5c0084d0000001</sys_recorded_at>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 09:46:26</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>ce187293c2ad86108fd05f5fec1c4c76</update_guid>
+        <update_guid_history>ce187293c2ad86108fd05f5fec1c4c76:811583237</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1386762_sales_cr_opportunity.x_1386762_sales_cr.opportunity_user">787cfed7c3ad8610d439563ed4013158</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 10:05:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>47ea3db163ff458a9cf4f0d07d475ea4</sys_id>
+        <sys_metadata>ce187293c3ad8610d439563ed4013174</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_opportunity.x_1386762_sales_cr.opportunity_user</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="">ce187293c3ad8610d439563ed4013171</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_ce187293c3ad8610d439563ed4013174</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_ce187293c3ad8610d439563ed4013174">ca187293c3ad8610d439563ed4013177</sys_update_version>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 10:05:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

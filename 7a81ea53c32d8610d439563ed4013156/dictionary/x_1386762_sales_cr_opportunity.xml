@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=false" db_object_id="ae94a558c3b5ca10d439563ed4013111" extends="task" label="Opportunity" max_length="40" name="x_1386762_sales_cr_opportunity" type="collection">
+        <element attributes="encode_utf8=false" label="Account Name" mandatory="true" max_length="32" name="accname" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element label="Amount" max_length="40" name="amount" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Date" mandatory="true" max_length="40" name="closedate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Forecast Category" mandatory="true" max_length="40" name="forecastcategory" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Next Step" max_length="40" name="nextstep" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Name" mandatory="true" max_length="40" name="oppname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Owner" max_length="40" name="oppowner" read_only="true" type="string"/>
+        <element label="Probability" max_length="40" name="probability" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Stage" mandatory="true" max_length="40" name="stage" type="string">
+            <choice>
+                <element inactive="true" inactive_on_update="true" label="Choice 1" sequence="0" value="Choice 1"/>
+                <element inactive_on_update="false" label="Qualify" sequence="0" value="Qualify"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 2" sequence="1" value="Choice 2"/>
+                <element inactive_on_update="false" label="Meet &amp; Present" sequence="1" value="Meet &amp; Present"/>
+                <element inactive="true" inactive_on_update="true" label="Choice 3" sequence="2" value="Choice 3"/>
+                <element inactive_on_update="false" label="Propose" sequence="2" value="Propose"/>
+                <element inactive_on_update="false" label="Negotiate" sequence="3" value="negotiate"/>
+                <element inactive_on_update="false" label="Closed" sequence="4" value="closed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Account Name" max_length="40" name="u_accname" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Account Name" max_length="32" name="u_accountname" reference="x_1386762_sales_cr_accounts" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Total Order Amount" max_length="40" name="u_amount" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Close Date" max_length="40" name="u_closedate" read_only="true" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Email" max_length="40" name="u_contactemail" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Name" max_length="40" name="u_contactname" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Phone" max_length="40" name="u_contactphone" read_only="true" type="string"/>
+        <element label="Discount" max_length="40" name="u_discount" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Grand Total" max_length="40" name="u_grandtotal" type="integer"/>
+        <element default="0" label="Grand Total" max_length="40" name="u_grandtotalamount" read_only="true" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Lead Source" max_length="40" name="u_leadsource" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Web" sequence="0" value="web"/>
+                <element inactive_on_update="false" label="Phone Inquiry" sequence="1" value="phone inquiry"/>
+                <element inactive_on_update="false" label="Partner Referral" sequence="2" value="partner referral"/>
+                <element inactive_on_update="false" label="Purchased List" sequence="3" value="purchased list"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Opportunity Name " mandatory="true" max_length="40" name="u_oppname" read_only="true" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserDisplayName()" label="Opportunity Owner" max_length="32" name="u_opportunityowner" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName()" label="Opportunity Owner" max_length="40" name="u_oppowner" read_only="true" type="string"/>
+        <element default="0" label="Rejected Count Quote" max_length="40" name="u_quotecount" reference_qual="null" reference_qual_condition="null" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="prospecting" label="Stage" mandatory="true" max_length="40" name="u_stage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Prospecting" sequence="0" value="prospecting"/>
+                <element inactive_on_update="false" label="Qualification" sequence="1" value="qualification"/>
+                <element inactive_on_update="false" label="Proposal/Price Quote" sequence="3" value="proposal/price quote"/>
+                <element inactive_on_update="false" label="Negotiation/Review" sequence="4" value="negotiation/review"/>
+                <element inactive_on_update="false" label="Closed Won" sequence="5" value="closed won"/>
+                <element inactive_on_update="false" label="Closed Lost" sequence="6" value="closed lost"/>
+            </choice>
+        </element>
+    </element>
+</database>

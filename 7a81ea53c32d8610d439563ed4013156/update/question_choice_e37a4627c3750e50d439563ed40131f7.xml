@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>400</order>
+        <published_ref/>
+        <question display_value="Salutation">daf9cee3c3750e50d439563ed4013126</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 11:21:34</sys_created_on>
+        <sys_id>e37a4627c3750e50d439563ed40131f7</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Dr.</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>question_choice_e37a4627c3750e50d439563ed40131f7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 11:22:33</sys_updated_on>
+        <text>Dr.</text>
+        <value>dr.</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e37a4627c3750e50d439563ed40131f7"/>
+</record_update>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="u_choosestorage" table="x_1386762_sales_cr_product_items_data">
+        <active>true</active>
+        <array>false</array>
+        <attributes>edge_encryption_enabled=true</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>1</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Choose Storage</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value>128 gb</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>true</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>u_choosestorage</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="String">string</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <name>x_1386762_sales_cr_product_items_data</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 05:56:32</sys_created_on>
+        <sys_id>4ec9d416c3354650d439563ed4013142</sys_id>
+        <sys_name>Choose Storage</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_dictionary_x_1386762_sales_cr_product_items_data_u_choosestorage</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 07:32:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_dictionary_x_1386762_sales_cr_product_items_data_u_choosestorage</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="u_choosestorage" table="x_1386762_sales_cr_product_items_data"><active>true</active><array>false</array><attributes>edge_encryption_enabled=true</attributes><audit>false</audit><calculation/><choice>1</choice><choice_field/><choice_table/><column_label>Choose Storage</column_label><comments/><create_roles/><default_value>128 gb</default_value><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>true</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>u_choosestorage</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="String">string</internal_type><mandatory>false</mandatory><max_length>40</max_length><name>x_1386762_sales_cr_product_items_data</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference/><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-28 05:56:32</sys_created_on><sys_id>4ec9d416c3354650d439563ed4013142</sys_id><sys_name>Choose Storage</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_dictionary_x_1386762_sales_cr_product_items_data_u_choosestorage</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-28 07:32:12</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type>script</virtual_type><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-982072882</payload_hash>
+        <record_name>Product Items Data.Choose Storage</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-28 07:32:12</sys_created_on>
+        <sys_id>5fafe092c3b54650d439563ed401311d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f239e5d150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-28 07:32:12</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>17afe092e7b54650869e0c1ec43b1c1d</update_guid>
+        <update_guid_history>17afe092e7b54650869e0c1ec43b1c1d:-982072882,56c9d416ca35465073a00f3feaa792c3:766701377,cec9d416ea354650c3016ae471d585b2:2083957048</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-03 07:37:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>b4ae5df6dc0d4b8a8c35e4b56e560ea4</sys_id>
+        <sys_metadata>4ec9d416c3354650d439563ed4013142</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Choose Storage</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="">7ab3581ec3f14650d439563ed4013198</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_dictionary_x_1386762_sales_cr_product_items_data_u_choosestorage</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_x_1386762_sales_cr_product_items_data_u_choosestorage">5fafe092c3b54650d439563ed401311d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-03 07:37:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

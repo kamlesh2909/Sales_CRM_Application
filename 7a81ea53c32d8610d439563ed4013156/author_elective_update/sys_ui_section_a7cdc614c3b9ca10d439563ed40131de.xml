@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="" section_id="a7cdc614c3b9ca10d439563ed40131de" sys_domain="global" table="x_1386762_sales_cr_quote" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>78c29a28c3bd0e10d439563ed40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quotename</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>fcc29a28c3bd0e10d439563ed40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_oppname</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>74c29a28c3bd0e10d439563ed40131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>f8c29a28c3bd0e10d439563ed40131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_expirationdate</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>70c29a28c3bd0e10d439563ed40131d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>f4c29a28c3bd0e10d439563ed40131d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+            <sys_id>7cc29a28c3bd0e10d439563ed40131d3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption/>
+            <header>false</header>
+            <name>x_1386762_sales_cr_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-22 09:15:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a7cdc614c3b9ca10d439563ed40131de</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_a7cdc614c3b9ca10d439563ed40131de</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:15:43</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_section_a7cdc614c3b9ca10d439563ed40131de</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="a7cdc614c3b9ca10d439563ed40131de" sys_domain="global" table="x_1386762_sales_cr_quote" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>78c29a28c3bd0e10d439563ed40131d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_quotename</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>fcc29a28c3bd0e10d439563ed40131d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_oppname</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>74c29a28c3bd0e10d439563ed40131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>f8c29a28c3bd0e10d439563ed40131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_expirationdate</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>70c29a28c3bd0e10d439563ed40131d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_status</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>f4c29a28c3bd0e10d439563ed40131d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_description</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:15:44</sys_created_on><sys_id>7cc29a28c3bd0e10d439563ed40131d3</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">a7cdc614c3b9ca10d439563ed40131de</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:44</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>x_1386762_sales_cr_quote</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-22 09:15:35</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a7cdc614c3b9ca10d439563ed40131de</sys_id><sys_mod_count>2</sys_mod_count><sys_name>x_1386762_sales_cr_quote</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_section_a7cdc614c3b9ca10d439563ed40131de</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:15:43</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>449728400</payload_hash>
+        <record_name>Quote</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 04:15:44</sys_created_on>
+        <sys_id>30c29a28c3bd0e10d439563ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f092ab2a40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 04:15:44</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f4c29a2850bd0e10561273d969350ed5</update_guid>
+        <update_guid_history>f4c29a2850bd0e10561273d969350ed5:449728400,2cc29a281cbd0e107cc104348afe99bc:-805175567,ffc092a40fbd0e108537467de4cf3f62:-1432520127,bb701e64ebbd0e101b7ecae4357db70c:599656426,09709a6444bd0e10eed3e688425a0aa3:1975200845,29605a64f5bd0e1003641ff4582b6e34:-1689044829,9650d6649fbd0e10b25093c4b5d9bde0:809134016,c910926400bd0e10aa10abb418bd503a:1989055359,bbffce248bbd0e104da105642647c9eb:-1153666771,d3b614a009750e10e2be18020083c103:-1827638738,8bb6d0a050750e10886914688d9f0890:462378413</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 04:17:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>817fa4761a3b4cc8a1240660b47cfb90</sys_id>
+        <sys_metadata>a7cdc614c3b9ca10d439563ed40131de</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_quote</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Quote">1c6cc690c3b9ca10d439563ed4013170</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a7cdc614c3b9ca10d439563ed40131de</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a7cdc614c3b9ca10d439563ed40131de">30c29a28c3bd0e10d439563ed40131d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 04:17:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="1269e578c3c68290d439563ed40131d0" extends="task" label="Task for Lead" max_length="40" name="x_1386762_sales_cr_task_for_lead" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Closed Date" max_length="40" name="u_closeddate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="600" name="u_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="u_duedate1" type="glide_date"/>
+        <element label="Due Date" max_length="40" name="u_due_date" type="due_date"/>
+        <element attributes="encode_utf8=false" label="Lead" max_length="32" name="u_lead" read_only="true" reference="x_1386762_sales_cr_leads" reference_qual="null" reference_qual_condition="null" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName()" label="Lead Owner" max_length="40" name="u_leadowner" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="not started" label="Status" max_length="40" name="u_status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Not Started" sequence="0" value="not started"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="2" value="completed"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Subject" max_length="40" name="u_subject" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Email" sequence="0" value="email"/>
+                <element inactive_on_update="false" label="Call" sequence="1" value="call"/>
+                <element inactive_on_update="false" label="Meeting" sequence="2" value="meeting"/>
+            </choice>
+        </element>
+    </element>
+</database>

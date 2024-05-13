@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_1386762_sales_cr_opportunity" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Opportunity - Default view" name="x_1386762_sales_cr_opportunity" related_list="NULL" sys_domain="global" view="Default view">3124865bc331ca50d439563ed4013115</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_1386762_sales_cr_orders.u_opportunityname</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-01 16:15:12</sys_created_on>
+            <sys_id>f924865bc331ca50d439563ed4013115</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-01 16:15:12</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Opportunity - Default view" name="x_1386762_sales_cr_opportunity" related_list="NULL" sys_domain="global" view="Default view">3124865bc331ca50d439563ed4013115</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>x_1386762_sales_cr_quote.u_oppname</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-01 16:15:12</sys_created_on>
+            <sys_id>fd24865bc331ca50d439563ed4013115</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-01 16:15:12</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Opportunity - Default view" name="x_1386762_sales_cr_opportunity" related_list="NULL" sys_domain="global" view="Default view">3124865bc331ca50d439563ed4013115</list_id>
+            <order_by/>
+            <position>2</position>
+            <related_list>sysapproval_approver.sysapproval</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-01 16:15:12</sys_created_on>
+            <sys_id>f124865bc331ca50d439563ed4013116</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-01 16:15:12</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Opportunity - Default view</calculated_name>
+            <filter/>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-01 16:15:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3124865bc331ca50d439563ed4013115</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Opportunity - Default view</sys_name>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_related_x_1386762_sales_cr_opportunity_null</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-01 16:15:12</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>

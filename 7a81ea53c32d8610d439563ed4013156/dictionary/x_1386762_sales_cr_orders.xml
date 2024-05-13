@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=false" db_object_id="96db1f2cc3354e10d439563ed4013120" extends="task" label="Orders" max_length="40" name="x_1386762_sales_cr_orders" type="collection">
+        <element attributes="encode_utf8=false" dependent="test" dependent_on_field="test" label="Item" max_length="32" name="item" reference="x_1386762_sales_cr_products" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Test" max_length="32" name="test" reference="x_1386762_sales_cr_products" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Order Amount" max_length="40" name="u_grandtotal" read_only="true" type="string"/>
+        <element active="false" attributes="encode_utf8=false" label="Opportunity Name" max_length="32" name="u_oppname" read_only="true" reference="x_1386762_sales_cr_opportunity" type="reference"/>
+        <element attributes="encode_utf8=false" label="Opportunity Number" max_length="32" name="u_opportunityname" reference="x_1386762_sales_cr_opportunity" type="reference"/>
+        <element attributes="encode_utf8=false" label="Product Category" mandatory="true" max_length="32" name="u_productcategory" reference="x_1386762_sales_cr_products" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Description" max_length="6000" name="u_productdescription" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;})(current);" dependent="u_productcategory" dependent_on_field="u_productcategory" label="Product Item" mandatory="true" max_length="40" name="u_productitem" reference="x_1386762_sales_cr_product_items" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Price" max_length="40" name="u_productprice" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quantity" mandatory="true" max_length="3" name="u_quantity" type="string"/>
+    </element>
+</database>

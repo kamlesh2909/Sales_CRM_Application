@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="DELETE">
+        <active>true</active>
+        <condition table="x_1386762_sales_cr_opportunity">stage=Meet &amp; Present^EQ<item display_value="Meet &amp; Present" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="Meet &amp; Present"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>Meet &amp; Present</label>
+        <name>Meet &amp; Present</name>
+        <order>200</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-22 06:53:47</sys_created_on>
+        <sys_id>eb3d2154c3f5ca10d439563ed40131cc</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Meet &amp; Present</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_process_flow_eb3d2154c3f5ca10d439563ed40131cc</sys_update_name>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-22 07:06:47</sys_updated_on>
+        <table>x_1386762_sales_cr_opportunity</table>
+    </sys_process_flow>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_process_flow_eb3d2154c3f5ca10d439563ed40131cc</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow"><sys_process_flow action="INSERT_OR_UPDATE"><active>true</active><condition table="x_1386762_sales_cr_opportunity">stage=Meet &amp; Present^EQ<item display_value="Meet &amp; Present" endquery="false" field="stage" goto="false" newquery="false" operator="=" or="false" value="Meet &amp; Present"/><item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/></condition><description/><label>Meet &amp; Present</label><name>Meet &amp; Present</name><order>200</order><sys_class_name>sys_process_flow</sys_class_name><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-22 06:53:47</sys_created_on><sys_id>eb3d2154c3f5ca10d439563ed40131cc</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Meet &amp; Present</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_process_flow_eb3d2154c3f5ca10d439563ed40131cc</sys_update_name><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-22 07:06:47</sys_updated_on><table>x_1386762_sales_cr_opportunity</table></sys_process_flow></record_update>]]></payload>
+        <payload_hash>775970129</payload_hash>
+        <record_name>Meet &amp; Present</record_name>
+        <reverted_from/>
+        <source>8963e617c32d8610d439563ed40131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-22 07:06:47</sys_created_on>
+        <sys_id>2850b51cc3f5ca10d439563ed40131f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f04a0ef900000001</sys_recorded_at>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-22 07:06:47</sys_updated_on>
+        <type>Flow Formatter</type>
+        <update_guid>ec50b51c89f5ca1008c0531f5cb561f4</update_guid>
+        <update_guid_history>ec50b51c89f5ca1008c0531f5cb561f4:775970129,c140391c74f5ca1057c083c21bd81280:-129039703,065d615419f5ca10e5493020acd179a2:-1099704360</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-22 17:19:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_process_flow">sys_process_flow</sys_db_object>
+        <sys_id>4489cd99ed1f41f6887fa6ebebf13331</sys_id>
+        <sys_metadata>eb3d2154c3f5ca10d439563ed40131cc</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Meet &amp; Present</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_process_flow_eb3d2154c3f5ca10d439563ed40131cc</sys_update_name>
+        <sys_update_version display_value="sys_process_flow_eb3d2154c3f5ca10d439563ed40131cc">2850b51cc3f5ca10d439563ed40131f5</sys_update_version>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-22 17:19:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

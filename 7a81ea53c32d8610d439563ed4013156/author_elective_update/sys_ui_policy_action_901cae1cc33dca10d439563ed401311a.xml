@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>u_leadstatus</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 11:28:44</sys_created_on>
+        <sys_id>901cae1cc33dca10d439563ed401311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_leadstatus</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_ui_policy_action_901cae1cc33dca10d439563ed401311a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 11:28:44</sys_updated_on>
+        <table>x_1386762_sales_cr_leads</table>
+        <ui_policy display_value="make lead status read only if status is converted">c2b9ee58c33dca10d439563ed4013176</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="DELETE" query="documentkey=901cae1cc33dca10d439563ed401311a"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_policy_action_901cae1cc33dca10d439563ed401311a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>u_leadstatus</field><field_message/><field_message_type>none</field_message_type><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-22 11:28:44</sys_created_on><sys_id>901cae1cc33dca10d439563ed401311a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_leadstatus</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_policy_action_901cae1cc33dca10d439563ed401311a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-22 11:28:44</sys_updated_on><table>x_1386762_sales_cr_leads</table><ui_policy display_value="make lead status read only if status is converted">c2b9ee58c33dca10d439563ed4013176</ui_policy><value/><value_action>ignore</value_action><visible>ignore</visible></sys_ui_policy_action><sys_translated_text action="delete_multiple" query="documentkey=901cae1cc33dca10d439563ed401311a"/></record_update>]]></payload>
+        <payload_hash>-446541590</payload_hash>
+        <record_name>u_leadstatus</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 11:28:44</sys_created_on>
+        <sys_id>794ca25cc33dca10d439563ed401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0590c2c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 11:28:44</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>7d4ca25cb43dca10d625e41ad6863e7e</update_guid>
+        <update_guid_history>7d4ca25cb43dca10d625e41ad6863e7e:-446541590</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 12:17:22</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>266f26182a0b499cb8dfaf7b02d417e1</sys_id>
+        <sys_metadata>901cae1cc33dca10d439563ed401311a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_leadstatus</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_901cae1cc33dca10d439563ed401311a</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_901cae1cc33dca10d439563ed401311a">794ca25cc33dca10d439563ed401317f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 12:17:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

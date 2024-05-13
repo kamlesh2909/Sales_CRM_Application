@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow read for records in x_1386762_sales_cr_leads, if the ACL script returns true.</description>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1386762_sales_cr_leads</name>
+        <operation display_value="read">read</operation>
+        <script><![CDATA[if(gs.getUserID() == current.u_referenceleadowner.user_name){
+	answer = true;
+}]]></script>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 11:45:33</sys_created_on>
+        <sys_id>dc2256fdc3020210d439563ed4013165</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_leads</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_security_acl_dc2256fdc3020210d439563ed4013165</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 12:04:40</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_security_acl_dc2256fdc3020210d439563ed4013165</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Allow read for records in x_1386762_sales_cr_leads, if the ACL script returns true.&lt;/description&gt;&lt;local_or_existing&gt;Local&lt;/local_or_existing&gt;&lt;name&gt;x_1386762_sales_cr_leads&lt;/name&gt;&lt;operation display_value="read"&gt;read&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[if(gs.getUserID() == current.u_referenceleadowner.user_name){
+	answer = true;
+}]]&gt;&lt;/script&gt;&lt;security_attribute/&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-05-09 11:45:33&lt;/sys_created_on&gt;&lt;sys_id&gt;dc2256fdc3020210d439563ed4013165&lt;/sys_id&gt;&lt;sys_mod_count&gt;8&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_1386762_sales_cr_leads&lt;/sys_name&gt;&lt;sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sales CRM Application"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_dc2256fdc3020210d439563ed4013165&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-05-09 12:04:40&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>550118124</payload_hash>
+        <record_name>x_1386762_sales_cr_leads</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 12:04:40</sys_created_on>
+        <sys_id>0687dab5c3420210d439563ed4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f5d3dc70f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 12:04:40</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>ca87dab55b420210042c4fda19e47052</update_guid>
+        <update_guid_history>ca87dab55b420210042c4fda19e47052:550118124,ace65675674202101b6fecdc26a96509:-1409127829,ff66d275a04202100dd5fdf3d089dc1a:1500360283,f5d5d235644202106647d69bbcf60f3f:1673245334,d6b5523562420210511f0e5916cb7d16:1298796082,d4e45eb147420210ee23fa61e0074f95:-1275316999,c2a49271d84202109db64d2dd159c7a4:1237138665,da33da319c42021070b3255483abae5c:1202222481,b9235a31204202105c6377126077d470:2089111807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-09 12:12:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>2f40b01334d84f228a3da8d876151564</sys_id>
+        <sys_metadata>dc2256fdc3020210d439563ed4013165</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_leads</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="x_1386762_sales_cr_leads">5917a65bc32d8610d439563ed40131ac</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_security_acl_dc2256fdc3020210d439563ed4013165</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_dc2256fdc3020210d439563ed4013165">0687dab5c3420210d439563ed4013153</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-09 12:12:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

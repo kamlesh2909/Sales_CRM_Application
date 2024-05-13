@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Quote Information" section_id="c5431668c3bd0e10d439563ed40131cc" sys_domain="global" table="x_1386762_sales_cr_quote" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>7365b827c3bdca50d439563ed4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <text>Totals</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3f65b827c3bdca50d439563ed4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <text>Prepared For</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>ff65b827c3bdca50d439563ed4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>7b65b827c3bdca50d439563ed4013147</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>f765b827c3bdca50d439563ed401317f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">30f15aa4c3bd0e10d439563ed4013132</sys_ui_formatter>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013180</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lead_owner</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013181</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013181</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_quotename</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013182</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_oppname</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013182</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013183</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_expirationdate</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013183</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_status</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013184</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013184</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013185</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013185</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7365b827c3bdca50d439563ed4013147</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_grandtotal</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013186</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>7b65b827c3bdca50d439563ed4013147</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013187</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_discount</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_grandtotalamount</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013188</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>3f65b827c3bdca50d439563ed4013147</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed401318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_6</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed401318a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed401318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed401318b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ff65b827c3bdca50d439563ed4013147</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3365b827c3bdca50d439563ed401318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-05-02 05:09:45</sys_created_on>
+            <sys_id>3b65b827c3bdca50d439563ed401318c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Quote Information" display_value="Quote Information" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">c5431668c3bd0e10d439563ed40131cc</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-05-02 05:09:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Quote Information</caption>
+            <header>false</header>
+            <name>x_1386762_sales_cr_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:17:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5431668c3bd0e10d439563ed40131cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_c5431668c3bd0e10d439563ed40131cc</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:17:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

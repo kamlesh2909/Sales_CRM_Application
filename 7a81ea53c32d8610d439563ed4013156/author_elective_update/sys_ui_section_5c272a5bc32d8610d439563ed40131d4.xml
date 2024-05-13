@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Lead Information" section_id="5c272a5bc32d8610d439563ed40131d4" sys_domain="global" table="x_1386762_sales_cr_leads" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>ccd7106bc365c610d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <text>Address</text>
+            <type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>0cd7106bc365c610d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <text>Name</text>
+            <type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>4cd7106bc365c610d439563ed40131cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>0cd7106bc365c610d439563ed40131c5</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c0d7106bc365c610d439563ed40131cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_salutation</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>48d7106bc365c610d439563ed40131cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_firstname</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>ccd7106bc365c610d439563ed40131cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lastname</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>44d7106bc365c610d439563ed40131cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c8d7106bc365c610d439563ed40131cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>40d7106bc365c610d439563ed40131ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c4d7106bc365c610d439563ed40131ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_leadstatus</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>4cd7106bc365c610d439563ed40131ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rating</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c0d7106bc365c610d439563ed40131cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>48d7106bc365c610d439563ed40131cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>ccd7106bc365c610d439563ed40131cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ccd7106bc365c610d439563ed40131c5</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>44d7106bc365c610d439563ed40131d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_street</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c8d7106bc365c610d439563ed40131d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>40d7106bc365c610d439563ed40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c4d7106bc365c610d439563ed40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zipcode</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>4cd7106bc365c610d439563ed40131d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>c0d7106bc365c610d439563ed40131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>48d7106bc365c610d439563ed40131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+            <sys_id>ccd7106bc365c610d439563ed40131d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Lead Information</caption>
+            <header>false</header>
+            <name>x_1386762_sales_cr_leads</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 08:32:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5c272a5bc32d8610d439563ed40131d4</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_leads</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_5c272a5bc32d8610d439563ed40131d4</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 08:45:58</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_section_5c272a5bc32d8610d439563ed40131d4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Lead Information" section_id="5c272a5bc32d8610d439563ed40131d4" sys_domain="global" table="x_1386762_sales_cr_leads" version="3" view=""><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>ccd7106bc365c610d439563ed40131c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><text>Address</text><type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type></sys_ui_annotation><sys_ui_annotation action="INSERT_OR_UPDATE"><is_plain_text>false</is_plain_text><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>0cd7106bc365c610d439563ed40131c5</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><text>Name</text><type display_value="Section Plain Text">a21c608353611010a813ddeeff7b12fc</type></sys_ui_annotation><sys_ui_element action="INSERT_OR_UPDATE"><element>number</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>4cd7106bc365c610d439563ed40131cb</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>0cd7106bc365c610d439563ed40131c5</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c0d7106bc365c610d439563ed40131cc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_salutation</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>48d7106bc365c610d439563ed40131cc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_firstname</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>ccd7106bc365c610d439563ed40131cc</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_lastname</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>44d7106bc365c610d439563ed40131cd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_company</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c8d7106bc365c610d439563ed40131cd</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>40d7106bc365c610d439563ed40131ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_phone</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c4d7106bc365c610d439563ed40131ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_leadstatus</element><position>8</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>4cd7106bc365c610d439563ed40131ce</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_rating</element><position>9</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c0d7106bc365c610d439563ed40131cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>10</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>48d7106bc365c610d439563ed40131cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>11</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>ccd7106bc365c610d439563ed40131cf</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>ccd7106bc365c610d439563ed40131c5</element><position>12</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>44d7106bc365c610d439563ed40131d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>annotation</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_street</element><position>13</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c8d7106bc365c610d439563ed40131d0</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>14</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>40d7106bc365c610d439563ed40131d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state</element><position>15</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c4d7106bc365c610d439563ed40131d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_zipcode</element><position>16</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>4cd7106bc365c610d439563ed40131d1</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>17</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>c0d7106bc365c610d439563ed40131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_city</element><position>18</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>48d7106bc365c610d439563ed40131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_country</element><position>19</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:44:38</sys_created_on><sys_id>ccd7106bc365c610d439563ed40131d2</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Lead Information" display_value="Lead Information" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">5c272a5bc32d8610d439563ed40131d4</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:44:38</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Lead Information</caption><header>false</header><name>x_1386762_sales_cr_leads</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 08:32:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5c272a5bc32d8610d439563ed40131d4</sys_id><sys_mod_count>1</sys_mod_count><sys_name>x_1386762_sales_cr_leads</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_section_5c272a5bc32d8610d439563ed40131d4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 08:45:58</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>2098904067</payload_hash>
+        <record_name>Leads</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 16:44:38</sys_created_on>
+        <sys_id>00d7106bc365c610d439563ed40131d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef73ee7ae0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 16:44:38</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>c4d7106b8265c610c6451b11717a6dd5</update_guid>
+        <update_guid_history>c4d7106b8265c610c6451b11717a6dd5:2098904067,ccb79c2bbe65c610f24eb3a024436c29:-1906450210,7830fe97a36d861008bc63d5ef16fed2:-406832882,99ea2e9f762d8610aedac8de4d6f6052:1022561996,9ddaaa9f102d8610beec5ecbd581ae6e:1191291383,c4cae69f292d8610aced2246cbf9ead8:-1518549578,2b9a269f522d8610fd6f9278dc8919bd:1978727275,414a6e5f062d8610966d3b4c49b405b9:638560999,9c4aea5fbc2d8610b29866fdd5961aed:-279349078</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 16:47:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>33b4c911559c4150b602da5933f73840</sys_id>
+        <sys_metadata>5c272a5bc32d8610d439563ed40131d4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Lead Information</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Leads">b0a66e1bc32d8610d439563ed40131b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_5c272a5bc32d8610d439563ed40131d4</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_5c272a5bc32d8610d439563ed40131d4">00d7106bc365c610d439563ed40131d6</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 16:47:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

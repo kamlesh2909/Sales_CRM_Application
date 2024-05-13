@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="contacttype" table="x_1386762_sales_cr_convert_lead" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>contacttype</element>
+            <name>x_1386762_sales_cr_convert_lead</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-19 08:58:11</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>contacttype</sys_name>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_choice_x_1386762_sales_cr_convert_lead_contacttype</sys_update_name>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-04-19 08:58:11</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="ec30fe97c36d8610d439563ed4013150" sys_domain="global" table="x_1386762_sales_cr_leads" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>d6f7c4a0c3ca0290d439563ed40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text>Lead Information</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>5af7c4a0c3ca0290d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text>Address</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>5ef7c4a0c3ca0290d439563ed40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>d2f7c4a0c3ca0290d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>1ef7c4a0c3ca0290d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text>Billing Address</text>
+            <type display_value="Section Separator">443e806c0fd30000b12e6903cfe01281</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>9af7c4a0c3ca0290d439563ed40131c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>12f7c4a0c3ca0290d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:03</sys_created_on>
+            <sys_id>96f7c4a0c3ca0290d439563ed40131c5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:03</sys_updated_on>
+            <text/>
+            <type display_value="Plain Text">8e7fdb04531300109686ddeeff7b127d</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>process_flow.xml</element>
+            <position>0</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>1af7c4a0c3ca0290d439563ed40131dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Process Flow">beddae93c36d8610d439563ed401315a</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>16f7c4a0c3ca0290d439563ed40131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>2</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>1ef7c4a0c3ca0290d439563ed40131de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_referenceleadowner</element>
+            <position>3</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>26f7c4a0c3ca0290d439563ed40131df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d6f7c4a0c3ca0290d439563ed40131c4</element>
+            <position>4</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>2ef7c4a0c3ca0290d439563ed40131df</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_salutation</element>
+            <position>5</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_firstname</element>
+            <position>6</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_lastname</element>
+            <position>7</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_company</element>
+            <position>8</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131fa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>9</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>9af7c4a0c3ca0290d439563ed40131c4</element>
+            <position>10</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5ef7c4a0c3ca0290d439563ed40131c4</element>
+            <position>11</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12f7c4a0c3ca0290d439563ed40131c5</element>
+            <position>12</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131fc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>d2f7c4a0c3ca0290d439563ed40131c5</element>
+            <position>13</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>96f7c4a0c3ca0290d439563ed40131c5</element>
+            <position>14</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_leadstatus</element>
+            <position>15</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>16</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131fe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>17</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f7c4a0c3ca0290d439563ed40131ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>18</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf7c4a0c3ca0290d439563ed40131ff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>5af7c4a0c3ca0290d439563ed40131c5</element>
+            <position>19</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013100</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_street</element>
+            <position>20</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013100</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>21</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013101</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>22</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013101</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>23</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013102</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>24</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013102</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zipcode</element>
+            <position>25</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013103</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>26</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013103</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <position>27</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013104</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1ef7c4a0c3ca0290d439563ed40131c5</element>
+            <position>28</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013104</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billingstreet</element>
+            <position>29</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013105</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billingcity</element>
+            <position>30</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013105</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>31</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013106</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billingstate</element>
+            <position>32</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013106</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>33</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013107</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billingzipcode</element>
+            <position>34</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013107</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>35</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>a2f708a0c3ca0290d439563ed4013108</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_billingcountry</element>
+            <position>36</position>
+            <sys_created_by>shubham</sys_created_by>
+            <sys_created_on>2024-05-05 04:25:04</sys_created_on>
+            <sys_id>aaf708a0c3ca0290d439563ed4013108</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">ec30fe97c36d8610d439563ed4013150</sys_ui_section>
+            <sys_updated_by>shubham</sys_updated_by>
+            <sys_updated_on>2024-05-05 04:25:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1386762_sales_cr_leads</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 09:11:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec30fe97c36d8610d439563ed4013150</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_leads</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_ec30fe97c36d8610d439563ed4013150</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 09:11:56</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

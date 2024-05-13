@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Account" section_id="ce8b6adfc32d8610d439563ed40131f0" sys_domain="global" table="x_1386762_sales_cr_convert_lead" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acctype</element>
+            <position>0</position>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-19 10:00:49</sys_created_on>
+            <sys_id>bc6b3a97c3ad8610d439563ed4013178</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-04-19 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_5</element>
+            <position>1</position>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-19 10:00:49</sys_created_on>
+            <sys_id>346b3a97c3ad8610d439563ed4013179</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-04-19 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_2</element>
+            <position>2</position>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-19 10:00:49</sys_created_on>
+            <sys_id>b86b3a97c3ad8610d439563ed4013179</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-04-19 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-19 10:00:49</sys_created_on>
+            <sys_id>306b3a97c3ad8610d439563ed401317a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-04-19 10:00:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Account</caption>
+            <header>false</header>
+            <name>x_1386762_sales_cr_convert_lead</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-04-19 08:51:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce8b6adfc32d8610d439563ed40131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_convert_lead</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_ce8b6adfc32d8610d439563ed40131f0</sys_update_name>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-04-19 08:51:33</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_section_ce8b6adfc32d8610d439563ed40131f0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Account" section_id="ce8b6adfc32d8610d439563ed40131f0" sys_domain="global" table="x_1386762_sales_cr_convert_lead" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>acctype</element><position>0</position><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 10:00:49</sys_created_on><sys_id>bc6b3a97c3ad8610d439563ed4013178</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 10:00:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_string_5</element><position>1</position><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 10:00:49</sys_created_on><sys_id>346b3a97c3ad8610d439563ed4013179</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 10:00:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_reference_2</element><position>2</position><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 10:00:49</sys_created_on><sys_id>b86b3a97c3ad8610d439563ed4013179</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 10:00:49</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>3</position><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 10:00:49</sys_created_on><sys_id>306b3a97c3ad8610d439563ed401317a</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Account" display_value="Account" name="x_1386762_sales_cr_convert_lead" sys_domain="global" view="Default view">ce8b6adfc32d8610d439563ed40131f0</sys_ui_section><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 10:00:49</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Account</caption><header>false</header><name>x_1386762_sales_cr_convert_lead</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>sankalp</sys_created_by><sys_created_on>2024-04-19 08:51:33</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ce8b6adfc32d8610d439563ed40131f0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1386762_sales_cr_convert_lead</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_section_ce8b6adfc32d8610d439563ed40131f0</sys_update_name><sys_updated_by>sankalp</sys_updated_by><sys_updated_on>2024-04-19 08:51:33</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>610611913</payload_hash>
+        <record_name>Convert Lead</record_name>
+        <reverted_from/>
+        <source>8963e617c32d8610d439563ed40131c9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 10:00:49</sys_created_on>
+        <sys_id>306b3a97c3ad8610d439563ed401317c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef5cd32cb0000001</sys_recorded_at>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 10:00:49</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>f46b3a97c7ad8610090cd56b5faa367b</update_guid>
+        <update_guid_history>f46b3a97c7ad8610090cd56b5faa367b:610611913,71eabe57e0ad8610c56d2ef517e5d305:996140497,038ab657d5ad8610735040d8cc38cdb0:939277089,db3ab21767ad8610448f729468804e82:-1732185796,085932d305ad86102f89b160c3c09370:610611913,6419f6d3e0ad86102535214a86103e28:-1567826461,b7143e1f3e6d86105b5976e1ae207b5b:610611913,d70da6935b6d86100f1ff801d53baf70:996140497,a28baadf782d8610b45d20515474affc:1337851104</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-22 05:55:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>34ce0221d3734220965ae139adc6f2a4</sys_id>
+        <sys_metadata>ce8b6adfc32d8610d439563ed40131f0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Account</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="">0268e2dbc32d8610d439563ed4013170</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_ce8b6adfc32d8610d439563ed40131f0</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_ce8b6adfc32d8610d439563ed40131f0">306b3a97c3ad8610d439563ed401317c</sys_update_version>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-22 05:55:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

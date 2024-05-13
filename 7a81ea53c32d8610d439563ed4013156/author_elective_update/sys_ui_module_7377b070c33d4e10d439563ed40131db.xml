@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sales CRM Application">a38c5e9bc3e98610d439563ed40131c4</application>
+        <filter/>
+        <name>pros</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1386762_sales_cr.orders_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 16:15:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7377b070c33d4e10d439563ed40131db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pros</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_ui_module_7377b070c33d4e10d439563ed40131db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:15:28</sys_updated_on>
+        <table>x_1386762_sales_cr_pro</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_module_7377b070c33d4e10d439563ed40131db</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sales CRM Application">a38c5e9bc3e98610d439563ed40131c4</application><filter/><name>pros</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1386762_sales_cr.orders_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 16:15:28</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7377b070c33d4e10d439563ed40131db</sys_id><sys_mod_count>0</sys_mod_count><sys_name>pros</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_module_7377b070c33d4e10d439563ed40131db</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 16:15:28</sys_updated_on><table>x_1386762_sales_cr_pro</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-1066231467</payload_hash>
+        <record_name>pros</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 16:15:28</sys_created_on>
+        <sys_id>3377b470c33d4e10d439563ed40131a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f0bbda22c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 16:15:28</sys_updated_on>
+        <type>Module</type>
+        <update_guid>f377b4701e3d4e10c169ebfad99354a7</update_guid>
+        <update_guid_history>f377b4701e3d4e10c169ebfad99354a7:-1066231467</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-24 04:45:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>4278c4831cc7472080cc226c84343b84</sys_id>
+        <sys_metadata>7377b070c33d4e10d439563ed40131db</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>pros</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_module_7377b070c33d4e10d439563ed40131db</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_7377b070c33d4e10d439563ed40131db">3377b470c33d4e10d439563ed40131a8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-24 04:45:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

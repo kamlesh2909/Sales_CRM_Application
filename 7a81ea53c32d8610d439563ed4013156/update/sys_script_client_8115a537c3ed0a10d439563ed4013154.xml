@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_email</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Regex forEmail Contact</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+
+    //Type appropriate comment here, and begin script below
+    var regex = /[a-z][a-zA-Z0-9.-]{3,15}@[a-zA-Z0-9]{3,10}.(com|co.in)/;
+
+    newValue = newValue.toString();
+
+    var isValidFormat = regex.test(newValue);
+
+    if (!isValidFormat) {
+
+        // g_form.showFieldMsg('Please enter valid email address.');
+
+        // g_form.addErrorMessage('1. max length = 30');
+
+        // g_form.addErrorMessage('2. before @ 4 to 16');
+
+        // g_form.addErrorMessage('3. after @ and before . 3 to 10');
+
+        // g_form.addErrorMessage('4. ending with .com or .co.in');
+
+        // g_form.addErrorMessage('5. first letter small case alphabet');
+
+        // g_form.clearValue('u_email');
+        g_form.setValue('u_email', '');
+        g_form.showFieldMsg('u_email', 'Email is Invalid', "error");
+
+    }
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 17:01:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>8115a537c3ed0a10d439563ed4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Regex forEmail Contact</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_client_8115a537c3ed0a10d439563ed4013154</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 17:01:26</sys_updated_on>
+        <table>x_1386762_sales_cr_contact</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

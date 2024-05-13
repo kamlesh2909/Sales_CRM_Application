@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_stage" table="x_1386762_sales_cr_opportunity" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_stage</element>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_stage</sys_name>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_choice_x_1386762_sales_cr_opportunity_u_stage</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Prospecting</label>
+            <language>en</language>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+            <value>prospecting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Qualification</label>
+            <language>en</language>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+            <value>qualification</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Proposal/Price Quote</label>
+            <language>en</language>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+            <value>proposal/price quote</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Negotiation/Review</label>
+            <language>en</language>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+            <value>negotiation/review</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Won</label>
+            <language>en</language>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+            <value>closed won</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_stage</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Closed Lost</label>
+            <language>en</language>
+            <name>x_1386762_sales_cr_opportunity</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-22 16:29:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-22 16:29:56</sys_updated_on>
+            <value>closed lost</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

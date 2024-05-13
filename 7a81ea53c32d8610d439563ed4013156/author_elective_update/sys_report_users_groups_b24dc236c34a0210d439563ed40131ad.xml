@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">ba4d4eb2c34a0210d439563ed401313a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 13:53:53</sys_created_on>
+        <sys_id>b24dc236c34a0210d439563ed40131ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ba4d4eb2c34a0210d439563ed401313a</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_report_users_groups_b24dc236c34a0210d439563ed40131ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 13:53:53</sys_updated_on>
+        <user_id display_value="Kamlesh Bakane">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_report_users_groups_b24dc236c34a0210d439563ed40131ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">ba4d4eb2c34a0210d439563ed401313a</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-12 13:53:53</sys_created_on><sys_id>b24dc236c34a0210d439563ed40131ad</sys_id><sys_mod_count>0</sys_mod_count><sys_name>ba4d4eb2c34a0210d439563ed401313a</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_report_users_groups_b24dc236c34a0210d439563ed40131ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-12 13:53:53</sys_updated_on><user_id display_value="Kamlesh Bakane">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-394610923</payload_hash>
+        <record_name>ba4d4eb2c34a0210d439563ed401313a</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 13:53:53</sys_created_on>
+        <sys_id>324dc236c34a0210d439563ed40131af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f6d14d6b70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 13:53:53</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>364dc236154a0210b3df2ae2a9cfb0ae</update_guid>
+        <update_guid_history>364dc236154a0210b3df2ae2a9cfb0ae:-394610923</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 14:01:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>0ffe453612f943f8869389e67c0b2c81</sys_id>
+        <sys_metadata>b24dc236c34a0210d439563ed40131ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ba4d4eb2c34a0210d439563ed401313a</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_b24dc236c34a0210d439563ed40131ad</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_b24dc236c34a0210d439563ed40131ad">324dc236c34a0210d439563ed40131af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 14:01:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

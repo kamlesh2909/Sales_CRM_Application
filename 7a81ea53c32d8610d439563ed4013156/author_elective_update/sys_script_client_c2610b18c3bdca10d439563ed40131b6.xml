@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>set Lead Status to Open</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   g_form.setValue('u_leadstatus','	open - not contacted');
+   
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 13:02:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c2610b18c3bdca10d439563ed40131b6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>set Lead Status to Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_client_c2610b18c3bdca10d439563ed40131b6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 13:10:51</sys_updated_on>
+        <table>x_1386762_sales_cr_leads</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_script_client_c2610b18c3bdca10d439563ed40131b6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;set Lead Status to Open&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+   //Type appropriate comment here, and begin script below
+   g_form.setValue('u_leadstatus','	open - not contacted');
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-22 13:02:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;c2610b18c3bdca10d439563ed40131b6&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;set Lead Status to Open&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sales CRM Application"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_c2610b18c3bdca10d439563ed40131b6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-22 13:10:51&lt;/sys_updated_on&gt;&lt;table&gt;x_1386762_sales_cr_leads&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>692867952</payload_hash>
+        <record_name>set Lead Status to Open</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 13:10:51</sys_created_on>
+        <sys_id>b1a30f98c3bdca10d439563ed401318d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f05ee425c0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 13:10:51</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>79a30f98c3bdca10ccc8cac0d7fe838c</update_guid>
+        <update_guid_history>79a30f98c3bdca10ccc8cac0d7fe838c:692867952,0933cb98b0bdca10359e1ee51ec73cb6:-555582429,d4d24758e6bdca109ff1e3958c46a233:692867952,a1820b5816bdca103c2befc57e57d8ee:-555582429,2812475874bdca10651f810718a89585:692867952,48d1071881bdca10b7d6ca4d3e2518b2:-555582429</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 13:12:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0631ba32f1d04cba83b783efdf384f11</sys_id>
+        <sys_metadata>c2610b18c3bdca10d439563ed40131b6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>set Lead Status to Open</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Leads">b0a66e1bc32d8610d439563ed40131b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_script_client_c2610b18c3bdca10d439563ed40131b6</sys_update_name>
+        <sys_update_version display_value="sys_script_client_c2610b18c3bdca10d439563ed40131b6">b1a30f98c3bdca10d439563ed401318d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 13:12:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=false" db_object_id="a2e60fafc3a10a10d439563ed40131f6" extends="task" label="Accounts" max_length="40" name="x_1386762_sales_cr_accounts" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account Name" mandatory="true" max_length="40" name="u_accountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName()" label="Account Owner" max_length="40" name="u_accountowner" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing City" max_length="40" name="u_billingcity" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Billing Street" max_length="40" name="u_billingstreet" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="encode_utf8=false" label="Lead Ref" max_length="32" name="u_leadref" reference="x_1386762_sales_cr_leads" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="10" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Rating" max_length="40" name="u_rating" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Hot" sequence="0" value="hot"/>
+                <element inactive_on_update="false" label="Warm" sequence="1" value="warm"/>
+                <element inactive_on_update="false" label="Cold" sequence="2" value="cold"/>
+            </choice>
+        </element>
+        <element attributes="encode_utf8=false" label="Lead Ref" max_length="32" name="u_reference_1" reference="cmdb_multisource_deny_class" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="6" name="u_zipcode" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Address information" section_id="4273b76bc3a50a10d439563ed4013151" sys_domain="global" table="x_1386762_sales_cr_contact" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_street</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>9e73f76bc3a50a10d439563ed401311e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_city</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>1673f76bc3a50a10d439563ed401311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>9a73f76bc3a50a10d439563ed401311f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_zipcode</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>1273f76bc3a50a10d439563ed4013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>9673f76bc3a50a10d439563ed4013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>1e73f76bc3a50a10d439563ed4013120</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>9273f76bc3a50a10d439563ed4013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+            <sys_id>1a73f76bc3a50a10d439563ed4013121</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Address information</caption>
+            <header>false</header>
+            <name>x_1386762_sales_cr_contact</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-20 08:44:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4273b76bc3a50a10d439563ed4013151</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_contact</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_4273b76bc3a50a10d439563ed4013151</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-20 08:44:19</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_section_4273b76bc3a50a10d439563ed4013151</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Address information" section_id="4273b76bc3a50a10d439563ed4013151" sys_domain="global" table="x_1386762_sales_cr_contact" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_street</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>9e73f76bc3a50a10d439563ed401311e</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_city</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>1673f76bc3a50a10d439563ed401311f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.begin_split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>9a73f76bc3a50a10d439563ed401311f</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type>.begin_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_zipcode</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>1273f76bc3a50a10d439563ed4013120</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>4</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>9673f76bc3a50a10d439563ed4013120</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_state</element><position>5</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>1e73f76bc3a50a10d439563ed4013120</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.end_split</element><position>6</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>9273f76bc3a50a10d439563ed4013121</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type>.end_split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_country</element><position>7</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:21</sys_created_on><sys_id>1a73f76bc3a50a10d439563ed4013121</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Address information" display_value="Address information" name="x_1386762_sales_cr_contact" sys_domain="global" view="Default view">4273b76bc3a50a10d439563ed4013151</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:21</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Address information</caption><header>false</header><name>x_1386762_sales_cr_contact</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-20 08:44:19</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>4273b76bc3a50a10d439563ed4013151</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1386762_sales_cr_contact</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_section_4273b76bc3a50a10d439563ed4013151</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-20 08:44:19</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>-2114161871</payload_hash>
+        <record_name>Contact</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 08:44:21</sys_created_on>
+        <sys_id>5e73f76bc3a50a10d439563ed4013123</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18efaad8d7a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 08:44:21</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>d273f76bfca50a102273732bcc7c9823</update_guid>
+        <update_guid_history>d273f76bfca50a102273732bcc7c9823:-2114161871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 08:44:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>036f8f57a0694abd8abe14fbbc08c8a9</sys_id>
+        <sys_metadata>4273b76bc3a50a10d439563ed4013151</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Address information</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Contact">2f6d6b63c3a50a10d439563ed4013102</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_4273b76bc3a50a10d439563ed4013151</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_4273b76bc3a50a10d439563ed4013151">5e73f76bc3a50a10d439563ed4013123</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 08:44:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

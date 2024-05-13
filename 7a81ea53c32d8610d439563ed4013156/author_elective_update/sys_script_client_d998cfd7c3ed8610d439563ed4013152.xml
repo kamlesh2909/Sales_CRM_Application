@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Dsiplay Lead Name</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var firstName = g_form.getValue('u_firstname');
+    var lastName = g_form.getValue('u_lastname');
+
+    
+	g_form.addInfoMessage("lead "+ firstName +" "+ lastName + " is created");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 11:04:11</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d998cfd7c3ed8610d439563ed4013152</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Dsiplay Lead Name</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_client_d998cfd7c3ed8610d439563ed4013152</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 17:42:09</sys_updated_on>
+        <table>x_1386762_sales_cr_leads</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_script_client_d998cfd7c3ed8610d439563ed4013152</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;false&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Dsiplay Lead Name&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    var firstName = g_form.getValue('u_firstname');
+    var lastName = g_form.getValue('u_lastname');
+
+    
+	g_form.addInfoMessage("lead "+ firstName +" "+ lastName + " is created");
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-19 11:04:11&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;d998cfd7c3ed8610d439563ed4013152&lt;/sys_id&gt;&lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;&lt;sys_name&gt;Dsiplay Lead Name&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sales CRM Application"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_d998cfd7c3ed8610d439563ed4013152&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-19 17:42:09&lt;/sys_updated_on&gt;&lt;table&gt;x_1386762_sales_cr_leads&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1262624728</payload_hash>
+        <record_name>Dsiplay Lead Name</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 17:42:09</sys_created_on>
+        <sys_id>66f4206bc3a5c610d439563ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef7738e8f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 17:42:09</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>2ef4206b78a5c6101ed0444da442b5c3</update_guid>
+        <update_guid_history>2ef4206b78a5c6101ed0444da442b5c3:-1262624728,190424e3e4a5c610983d512d211d39d9:-744835365,5fb328a36da5c610a90fe5050096d0d2:-992322814,068217179421c6103b0cff2a1adddf31:237642730,841f039b61ed86101463189d27eaa3e3:-927108464,acde87dfceed8610a048e323c2e514c5:1495390344,494ecbd78aed86106c9058ee3304b68a:1928616637,294a8bd707ed86107af025d2069ff998:1122875931,d12a0fd72fed8610afa35105323e1f74:784142875,70e90fd7cfed86102a82cba2d6c1b67d:-1856692332</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-20 05:22:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>9ecb976516884540ac46ae6fc7e5ca90</sys_id>
+        <sys_metadata>d998cfd7c3ed8610d439563ed4013152</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dsiplay Lead Name</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Leads">b0a66e1bc32d8610d439563ed40131b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_script_client_d998cfd7c3ed8610d439563ed4013152</sys_update_name>
+        <sys_update_version display_value="sys_script_client_d998cfd7c3ed8610d439563ed4013152">66f4206bc3a5c610d439563ed40131c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-20 05:22:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

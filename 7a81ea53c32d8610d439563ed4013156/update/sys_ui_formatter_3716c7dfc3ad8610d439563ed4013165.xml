@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_formatter">
+    <sys_ui_formatter action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <angular_module/>
+        <formatter>process_flow.xml</formatter>
+        <name>Process Flow</name>
+        <seismic_component/>
+        <sys_class_name>sys_ui_formatter</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-19 10:47:44</sys_created_on>
+        <sys_id>3716c7dfc3ad8610d439563ed4013165</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Process Flow</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_ui_formatter_3716c7dfc3ad8610d439563ed4013165</sys_update_name>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-19 10:47:44</sys_updated_on>
+        <table>x_1386762_sales_cr_opportunity</table>
+        <type>formatter</type>
+    </sys_ui_formatter>
+</record_update>

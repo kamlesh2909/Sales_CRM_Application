@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Display info msg lead</name>
+        <order/>
+        <script><![CDATA[function onSubmit() {
+    var firstName = g_form.getValue('u_firstname');
+    var lastName = g_form.getValue('u_lastname');
+
+    if (firstName && lastName) {
+        var message = "Lead " + firstName + "  " + lastName + " is created";
+        g_form.addInfoMessage(message);
+
+        // Remove the info message after 5 seconds
+        setTimeout(function() {
+            g_form.clearMessages(); // Clear all messages after 5 seconds
+        }, 10000); // 5000 milliseconds = 5 seconds
+    } else {
+        g_form.addErrorMessage("Please fill out both First Name and Last Name fields.");
+        return false; // Prevent form submission if fields are not filled
+    }
+
+    return true; // Allow form submission if all conditions are met
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 09:29:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1c71be1bc36d8610d439563ed4013111</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Display info msg lead</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_client_1c71be1bc36d8610d439563ed4013111</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 10:57:00</sys_updated_on>
+        <table>x_1386762_sales_cr_leads</table>
+        <type>onSubmit</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_script_client_1c71be1bc36d8610d439563ed4013111</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Display info msg lead&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onSubmit() {
+    var firstName = g_form.getValue('u_firstname');
+    var lastName = g_form.getValue('u_lastname');
+
+    if (firstName &amp;&amp; lastName) {
+        var message = "Lead " + firstName + "  " + lastName + " is created";
+        g_form.addInfoMessage(message);
+
+        // Remove the info message after 5 seconds
+        setTimeout(function() {
+            g_form.clearMessages(); // Clear all messages after 5 seconds
+        }, 10000); // 5000 milliseconds = 5 seconds
+    } else {
+        g_form.addErrorMessage("Please fill out both First Name and Last Name fields.");
+        return false; // Prevent form submission if fields are not filled
+    }
+
+    return true; // Allow form submission if all conditions are met
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-04-19 09:29:20&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;1c71be1bc36d8610d439563ed4013111&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Display info msg lead&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Sales CRM Application"&gt;7a81ea53c32d8610d439563ed4013156&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_1c71be1bc36d8610d439563ed4013111&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-04-19 10:57:00&lt;/sys_updated_on&gt;&lt;table&gt;x_1386762_sales_cr_leads&lt;/table&gt;&lt;type&gt;onSubmit&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>7211291</payload_hash>
+        <record_name>Display info msg lead</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 10:57:00</sys_created_on>
+        <sys_id>333883d7c3ed8610d439563ed4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef600a2800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 10:57:00</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>f73883d750ed861045f39a5b7ed1193f</update_guid>
+        <update_guid_history>f73883d750ed861045f39a5b7ed1193f:7211291,c80843d780ed861043d64746a050dbbc:-1168530641,22470b5765ed8610b505807fdd04342a:1918587955,b366cf1779ed861055325e13e03d92de:2137429643,c4cefe9bf4ad8610234cd66c8864ec89:-278503889,9eae32db02ad8610688dddfc8b041584:-705355541,1f9eba9b3ead86100ea98e9b36ae17e5:-1118604498,75cd365b10ad8610fbac83aa6b02bbff:2137429643,f6473253ecad86102516eb414ce0eb17:607434517,55c6369f4c6d8610e04e4b8bb6ff0231:657432152,0146765f566d8610d7b00f7a91cec0e0:-876488996,bc05fe1f256d86100616197529e25001:368817007,af247a1fd76d86106b784c891a174261:-876488996</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 10:58:20</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>7de1b9150a7c43d880b178f1b518fae4</sys_id>
+        <sys_metadata>1c71be1bc36d8610d439563ed4013111</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Display info msg lead</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Leads">b0a66e1bc32d8610d439563ed40131b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_script_client_1c71be1bc36d8610d439563ed4013111</sys_update_name>
+        <sys_update_version display_value="sys_script_client_1c71be1bc36d8610d439563ed4013111">333883d7c3ed8610d439563ed4013140</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 10:58:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="New Section" section_id="a3ba9c2fc365c610d439563ed4013189" sys_domain="global" table="x_1386762_sales_cr_leads" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_country</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:57:27</sys_created_on>
+            <sys_id>77ba9c2fc365c610d439563ed40131f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="New Section" display_value="New Section" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">a3ba9c2fc365c610d439563ed4013189</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:57:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>New Section</caption>
+            <header>false</header>
+            <name>x_1386762_sales_cr_leads</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-19 16:57:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a3ba9c2fc365c610d439563ed4013189</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_leads</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_a3ba9c2fc365c610d439563ed4013189</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-19 16:57:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_section_a3ba9c2fc365c610d439563ed4013189</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="New Section" section_id="a3ba9c2fc365c610d439563ed4013189" sys_domain="global" table="x_1386762_sales_cr_leads" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_country</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:57:27</sys_created_on><sys_id>77ba9c2fc365c610d439563ed40131f9</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="New Section" display_value="New Section" name="x_1386762_sales_cr_leads" sys_domain="global" view="Default view">a3ba9c2fc365c610d439563ed4013189</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:57:27</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>New Section</caption><header>false</header><name>x_1386762_sales_cr_leads</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-19 16:57:26</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>a3ba9c2fc365c610d439563ed4013189</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1386762_sales_cr_leads</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_section_a3ba9c2fc365c610d439563ed4013189</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-19 16:57:26</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>995047072</payload_hash>
+        <record_name>Leads</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 16:57:27</sys_created_on>
+        <sys_id>f3ba9c2fc365c610d439563ed40131fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18ef74aa3250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 16:57:27</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7bba9c2f3865c610a343e008f323aafa</update_guid>
+        <update_guid_history>7bba9c2f3865c610a343e008f323aafa:995047072</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-19 16:57:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>461ed5305fd343fe885102751be1e141</sys_id>
+        <sys_metadata>a3ba9c2fc365c610d439563ed4013189</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Section</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Leads">b0a66e1bc32d8610d439563ed40131b3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_a3ba9c2fc365c610d439563ed4013189</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_a3ba9c2fc365c610d439563ed4013189">f3ba9c2fc365c610d439563ed40131fb</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-19 16:57:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application display_value="Sales CRM Application">a38c5e9bc3e98610d439563ed40131c4</application>
+        <filter/>
+        <name>Opportunities</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1386762_sales_cr.opportunity_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 05:58:10</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7906990c3b5ca10d439563ed40131c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opportunities</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_ui_module_e7906990c3b5ca10d439563ed40131c5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 05:58:10</sys_updated_on>
+        <table>x_1386762_sales_cr_opportunity</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_module_e7906990c3b5ca10d439563ed40131c5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Sales CRM Application">a38c5e9bc3e98610d439563ed40131c4</application><filter/><name>Opportunities</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>x_1386762_sales_cr.opportunity_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-22 05:58:10</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>e7906990c3b5ca10d439563ed40131c5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Opportunities</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_module_e7906990c3b5ca10d439563ed40131c5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-22 05:58:10</sys_updated_on><table>x_1386762_sales_cr_opportunity</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>-635086297</payload_hash>
+        <record_name>Opportunities</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 05:58:10</sys_created_on>
+        <sys_id>eb9069d0c3b5ca10d439563ed4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f04621dfc0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 05:58:10</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ef9069d0ceb5ca10513c581d6c19fe46</update_guid>
+        <update_guid_history>ef9069d0ceb5ca10513c581d6c19fe46:-635086297</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-22 06:06:29</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>1556d3a31ac8456782036de7ad85bdf9</sys_id>
+        <sys_metadata>e7906990c3b5ca10d439563ed40131c5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Opportunities</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_module_e7906990c3b5ca10d439563ed40131c5</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_e7906990c3b5ca10d439563ed40131c5">eb9069d0c3b5ca10d439563ed4013147</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-22 06:06:29</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

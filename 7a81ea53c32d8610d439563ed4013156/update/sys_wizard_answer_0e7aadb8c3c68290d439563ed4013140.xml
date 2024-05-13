@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Task for Lead</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Task for Lead</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">050d6d1a8d30021087de63ac7f1f00ba</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-06 06:13:52</sys_created_on>
+        <sys_id>0e7aadb8c3c68290d439563ed4013140</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Task for Lead</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_wizard_answer_0e7aadb8c3c68290d439563ed4013140</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-06 06:13:52</sys_updated_on>
+        <table/>
+        <target_url>x_1386762_sales_cr_task_for_lead.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

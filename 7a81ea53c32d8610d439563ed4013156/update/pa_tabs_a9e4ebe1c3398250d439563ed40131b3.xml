@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page display_value="New Tab 1">ede4ebe1c3398250d439563ed40131b0</canvas_page>
+        <name>a9e4ebe1c3398250d439563ed40131b3CRM Reports </name>
+        <page display_value="CRM Reports ">21e4ebe1c3398250d439563ed40131af</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 12:48:32</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a9e4ebe1c3398250d439563ed40131b3</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>a9e4ebe1c3398250d439563ed40131b3CRM Reports </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>pa_tabs_a9e4ebe1c3398250d439563ed40131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:25:01</sys_updated_on>
+    </pa_tabs>
+</record_update>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="New Tab 1">ede4ebe1c3398250d439563ed40131b0</grid_canvas>
+        <height>9</height>
+        <portal_widget display_value="Created 2024-05-12 06:46:43">c6ab0efec30a0210d439563ed4013152</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 13:46:43</sys_created_on>
+        <sys_id>ceab0efec30a0210d439563ed4013153</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>ede4ebe1c3398250d439563ed40131b0</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_ceab0efec30a0210d439563ed4013153</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 13:52:59</sys_updated_on>
+        <width>4</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_grid_canvas_pane_ceab0efec30a0210d439563ed4013153</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="New Tab 1">ede4ebe1c3398250d439563ed40131b0</grid_canvas><height>9</height><portal_widget display_value="Created 2024-05-12 06:46:43">c6ab0efec30a0210d439563ed4013152</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-05-12 13:46:43</sys_created_on><sys_id>ceab0efec30a0210d439563ed4013153</sys_id><sys_mod_count>6</sys_mod_count><sys_name>ede4ebe1c3398250d439563ed40131b0</sys_name><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_grid_canvas_pane_ceab0efec30a0210d439563ed4013153</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-05-12 13:52:59</sys_updated_on><width>4</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>1832794213</payload_hash>
+        <record_name>ede4ebe1c3398250d439563ed40131b0</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 13:52:59</sys_created_on>
+        <sys_id>fd1dcef2c34a0210d439563ed4013135</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f6d1404360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 13:52:59</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>b51dcef2684a02105f368ac58afb5b35</update_guid>
+        <update_guid_history>b51dcef2684a02105f368ac58afb5b35:1832794213,6d1dcef28c4a0210bdd210f03261231e:-1598011795,16eccaf2ac4a0210880fb2d5edbd0e93:1805779402,28ec86f26b4a0210167a35b3f3fb6d1d:1832794213,f3cc4af24f4a0210a20c7fc73fcb474e:-977185912,31cc0af2684a0210e6a032c6fc47eb78:863213190,02ab0efe460a02106c53a0bd2ed8ec55:-1199695640</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-12 14:02:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>3c06d9a123b842f7aea3d1c8568048c9</sys_id>
+        <sys_metadata>ceab0efec30a0210d439563ed4013153</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ede4ebe1c3398250d439563ed40131b0</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_ceab0efec30a0210d439563ed4013153</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_ceab0efec30a0210d439563ed4013153">fd1dcef2c34a0210d439563ed4013135</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 14:02:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

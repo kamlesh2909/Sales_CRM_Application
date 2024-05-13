@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=false" db_object_id="1c6cc690c3b9ca10d439563ed4013170" extends="task" label="Quote" max_length="40" name="x_1386762_sales_cr_quote" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName()" label="Quote Owner" max_length="40" name="lead_owner" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="255" name="u_description" type="string_full_utf8"/>
+        <element label="Discount(%)" mandatory="true" max_length="40" name="u_discount" type="float"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Expiration Date" max_length="40" name="u_expirationdate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Total Amount" max_length="40" name="u_grandtotal" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Grand Total" max_length="40" name="u_grandtotalamount" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" label="Opportunity Number" max_length="32" name="u_oppname" read_only="true" reference="x_1386762_sales_cr_opportunity" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="10" name="u_phone" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Quote Name" max_length="40" name="u_quotename" type="string"/>
+        <element attributes="encode_utf8=false" label="Contact Name" max_length="32" name="u_reference_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="draft" label="Status" max_length="40" name="u_status" read_only="true" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="In Review" sequence="1" value="in review"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+            </choice>
+        </element>
+    </element>
+</database>

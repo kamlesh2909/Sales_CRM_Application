@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="all_tables.query_hints=true,email_client=true,hasLabels=true,hasWorkflow=true,live_feed=false" db_object_id="2f6d6b63c3a50a10d439563ed4013102" extends="task" label="Contact" max_length="40" name="x_1386762_sales_cr_contact" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Account Name" max_length="40" name="u_accountname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Birthdate" max_length="40" name="u_birthdate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Salutation" max_length="40" name="u_choice_2" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Mr." sequence="0" value="mr."/>
+                <element inactive_on_update="false" label="Ms." sequence="1" value="ms."/>
+                <element inactive_on_update="false" label="Mrs." sequence="2" value="mrs."/>
+                <element inactive_on_update="false" label="Dr." sequence="3" value="dr."/>
+                <element inactive_on_update="false" label="Prof." sequence="4" value="prof."/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:gs.getUserDisplayName()" label="Contact Owner" max_length="40" name="u_contactowner" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Country" max_length="40" name="u_country" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="First Name" max_length="40" name="u_firstname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Last Name" max_length="40" name="u_lastname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="10" name="u_phone" type="string"/>
+        <element attributes="encode_utf8=false" default="javascript:gs.getUserDisplayName()" label="Contact Owner" max_length="32" name="u_referencecontactowner" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="State" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Street" max_length="40" name="u_street" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="New String (Full UTF-8)" max_length="255" name="u_string_full_utf8_6" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="u_zipcode" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="812327f4c3798e10d439563ed4013197" extends="task" label="Product Items" max_length="40" name="x_1386762_sales_cr_product_items" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Choose Storage" max_length="40" name="u_choosestorage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="128 GB" sequence="0" value="128 gb"/>
+                <element inactive_on_update="false" label="256 GB" sequence="1" value="256 gb"/>
+                <element inactive_on_update="false" label="512 GB" sequence="2" value="512 gb"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Item Price" max_length="40" name="u_itemprice" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Description" max_length="6000" name="u_prodesc" type="string_full_utf8"/>
+        <element attributes="encode_utf8=false" label="Product Category" max_length="32" name="u_productcategory" reference="x_1386762_sales_cr_products" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Product Item" max_length="40" name="u_productitem" type="string"/>
+    </element>
+</database>

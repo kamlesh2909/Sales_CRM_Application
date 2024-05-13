@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="DELETE">
+        <dashboard display_value="Sales CRM Application Dashboard ">6a94ebedc3f58250d439563ed4013180</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 13:24:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>143debadc3398250d439563ed40131ba</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6a94ebedc3f58250d439563ed4013180</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_143debadc3398250d439563ed40131ba</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:24:45</sys_updated_on>
+        <tab display_value="New Tab 2">143debadc3398250d439563ed40131b3</tab>
+    </pa_m2m_dashboard_tabs>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>pa_m2m_dashboard_tabs_143debadc3398250d439563ed40131ba</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_m2m_dashboard_tabs"><pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE"><dashboard display_value="Sales CRM Application Dashboard ">6a94ebedc3f58250d439563ed4013180</dashboard><home>false</home><homepage/><order>2</order><sys_class_name>pa_m2m_dashboard_tabs</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-26 13:24:45</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>143debadc3398250d439563ed40131ba</sys_id><sys_mod_count>0</sys_mod_count><sys_name>6a94ebedc3f58250d439563ed4013180</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>pa_m2m_dashboard_tabs_143debadc3398250d439563ed40131ba</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-26 13:24:45</sys_updated_on><tab display_value="New Tab 2">143debadc3398250d439563ed40131b3</tab></pa_m2m_dashboard_tabs></record_update>]]></payload>
+        <payload_hash>-679632017</payload_hash>
+        <record_name>6a94ebedc3f58250d439563ed4013180</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 13:24:45</sys_created_on>
+        <sys_id>943debadc3398250d439563ed40131bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f1a946c5e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:24:45</sys_updated_on>
+        <type>Dashboard Tab</type>
+        <update_guid>983debad5d398250f5814e90ce3c1abb</update_guid>
+        <update_guid_history>983debad5d398250f5814e90ce3c1abb:-679632017</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Sales CRM Application Dashboard ">4d4d2fadc3398250d439563ed401310a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-26 13:25:05</sys_created_on>
+        <sys_db_object display_value="" name="pa_m2m_dashboard_tabs">pa_m2m_dashboard_tabs</sys_db_object>
+        <sys_id>5e25f7cd42b1493eace9c1891edc0644</sys_id>
+        <sys_metadata>143debadc3398250d439563ed40131ba</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>6a94ebedc3f58250d439563ed4013180</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Sales CRM Application Dashboard ">6a94ebedc3f58250d439563ed4013180</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>pa_m2m_dashboard_tabs_143debadc3398250d439563ed40131ba</sys_update_name>
+        <sys_update_version display_value="pa_m2m_dashboard_tabs_143debadc3398250d439563ed40131ba">943debadc3398250d439563ed40131bc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-26 13:25:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

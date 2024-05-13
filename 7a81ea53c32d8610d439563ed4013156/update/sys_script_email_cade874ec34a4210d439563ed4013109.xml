@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>Opportunity Approval for Agent</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    // Add your code here
+    var gr1 = new GlideRecord('x_1386762_sales_cr_orders');
+    gr1.addEncodedQuery('u_opportunityname.numberSTARTSWITH' + current.number);
+    gr1.query();
+
+    while (gr1.next()) {
+
+        template.print('<b>Category:</b> ' + gr1.u_productcategory.getDisplayValue() + '<br>' +
+            '<b>Item:</b>  ' + gr1.u_productitem.getDisplayValue() + '<br>' +
+            '<b>Price:</b>  ' + gr1.u_productprice + '<br>' +
+            '<b>Quantity:</b>  ' + gr1.u_quantity + '<br>' +
+            '<b>Grand Total:</b>  ' + gr1.u_grandtotal + '<br>' +
+            '<br>');
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-10 10:46:15</sys_created_on>
+        <sys_id>cade874ec34a4210d439563ed4013109</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Opportunity Approval for Agent</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_email_cade874ec34a4210d439563ed4013109</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-12 12:15:22</sys_updated_on>
+    </sys_script_email>
+</record_update>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section action="DELETE" caption="Prepared For" section_id="8bff8e24c3bd0e10d439563ed40131e5" sys_domain="global" table="x_1386762_sales_cr_quote" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_reference_6</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:03:39</sys_created_on>
+            <sys_id>37ffce24c3bd0e10d439563ed40131f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:03:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:03:39</sys_created_on>
+            <sys_id>bbffce24c3bd0e10d439563ed40131f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:03:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:03:39</sys_created_on>
+            <sys_id>33ffce24c3bd0e10d439563ed40131f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:03:39</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_phone</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:03:39</sys_created_on>
+            <sys_id>b7ffce24c3bd0e10d439563ed40131f6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:03:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="DELETE">
+            <caption>Prepared For</caption>
+            <header>false</header>
+            <name>x_1386762_sales_cr_quote</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2024-04-23 04:03:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bff8e24c3bd0e10d439563ed40131e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_quote</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_section_8bff8e24c3bd0e10d439563ed40131e5</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2024-04-23 04:03:36</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</application>
+        <file_path/>
+        <instance_id>a31032d4db1dca90ebdd2a5913961934</instance_id>
+        <instance_name>dev250777</instance_name>
+        <name>sys_ui_section_8bff8e24c3bd0e10d439563ed40131e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="Prepared For" section_id="8bff8e24c3bd0e10d439563ed40131e5" sys_domain="global" table="x_1386762_sales_cr_quote" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_reference_6</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:03:39</sys_created_on><sys_id>37ffce24c3bd0e10d439563ed40131f5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:03:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_email</element><position>1</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:03:39</sys_created_on><sys_id>bbffce24c3bd0e10d439563ed40131f5</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:03:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>.split</element><position>2</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:03:39</sys_created_on><sys_id>33ffce24c3bd0e10d439563ed40131f6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:03:39</sys_updated_on><sys_user/><type>.split</type></sys_ui_element><sys_ui_element action="INSERT_OR_UPDATE"><element>u_phone</element><position>3</position><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:03:39</sys_created_on><sys_id>b7ffce24c3bd0e10d439563ed40131f6</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="Prepared For" display_value="Prepared For" name="x_1386762_sales_cr_quote" sys_domain="global" view="Default view">8bff8e24c3bd0e10d439563ed40131e5</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:03:39</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption>Prepared For</caption><header>false</header><name>x_1386762_sales_cr_quote</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2024-04-23 04:03:36</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8bff8e24c3bd0e10d439563ed40131e5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1386762_sales_cr_quote</sys_name><sys_overrides/><sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package><sys_policy/><sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope><sys_update_name>sys_ui_section_8bff8e24c3bd0e10d439563ed40131e5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2024-04-23 04:03:36</sys_updated_on><sys_user/><title>false</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+        <payload_hash>1855870380</payload_hash>
+        <record_name>Quote</record_name>
+        <reverted_from/>
+        <source>5c33ea93c32d8610d439563ed40131e5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 04:03:39</sys_created_on>
+        <sys_id>f7ffce24c3bd0e10d439563ed40131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18f091fa3e60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 04:03:39</sys_updated_on>
+        <type>Form Layout</type>
+        <update_guid>7fffce2484bd0e1085f8f10e458cc1f7</update_guid>
+        <update_guid_history>7fffce2484bd0e1085f8f10e458cc1f7:1855870380</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-23 04:04:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_section">sys_ui_section</sys_db_object>
+        <sys_id>24cb4beeab574318887921f2b4eb2810</sys_id>
+        <sys_metadata>8bff8e24c3bd0e10d439563ed40131e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Prepared For</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_parent display_value="Quote">1c6cc690c3b9ca10d439563ed4013170</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_scope_delete display_value="">7f3d3b02c5274410808111e9c2c83240</sys_scope_delete>
+        <sys_update_name>sys_ui_section_8bff8e24c3bd0e10d439563ed40131e5</sys_update_name>
+        <sys_update_version display_value="sys_ui_section_8bff8e24c3bd0e10d439563ed40131e5">f7ffce24c3bd0e10d439563ed40131f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-23 04:04:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

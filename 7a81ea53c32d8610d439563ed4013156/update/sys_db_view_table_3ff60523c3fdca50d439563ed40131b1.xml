@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 06:26:48</sys_created_on>
+        <sys_id>3ff60523c3fdca50d439563ed40131b1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_leads</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_db_view_table_3ff60523c3fdca50d439563ed40131b1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 06:58:33</sys_updated_on>
+        <table>x_1386762_sales_cr_leads</table>
+        <variable_prefix>lead</variable_prefix>
+        <view display_value="x_1386762_sales_cr_account_lead_report_in_crm">b3a68dabc3fdca50d439563ed4013198</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

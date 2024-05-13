@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Sales CRM Application">a38c5e9bc3e98610d439563ed40131c4</application>
+        <filter/>
+        <name>Quotes</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>x_1386762_sales_cr.quote_user</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>sankalp</sys_created_by>
+        <sys_created_on>2024-04-22 09:10:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0ebcce90c3b9ca10d439563ed4013102</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quotes</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_ui_module_0ebcce90c3b9ca10d439563ed4013102</sys_update_name>
+        <sys_updated_by>sankalp</sys_updated_by>
+        <sys_updated_on>2024-04-22 09:10:51</sys_updated_on>
+        <table>x_1386762_sales_cr_quote</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+</record_update>

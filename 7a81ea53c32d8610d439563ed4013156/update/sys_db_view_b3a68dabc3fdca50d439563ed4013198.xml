@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="INSERT_OR_UPDATE">
+        <description/>
+        <label/>
+        <name>x_1386762_sales_cr_account_lead_report_in_crm</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-02 06:25:42</sys_created_on>
+        <sys_id>b3a68dabc3fdca50d439563ed4013198</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1386762_sales_cr_account_lead_report_in_crm</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_db_view_b3a68dabc3fdca50d439563ed4013198</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 06:25:42</sys_updated_on>
+    </sys_db_view>
+</record_update>

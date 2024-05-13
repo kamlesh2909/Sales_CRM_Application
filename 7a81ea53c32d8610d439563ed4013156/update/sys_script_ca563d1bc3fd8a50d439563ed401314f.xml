@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1386762_sales_cr_opportunity</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Generate Forecast  based on Opp</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+
+    if (current.operation() == 'insert') {
+        var gr = new GlideRecord('x_1386762_sales_cr_forecast');
+        gr.initialize();
+        gr.u_oppname = current.sys_id;
+
+        gr.u_opportuntiyname = current.u_oppname;
+        gr.u_accname = current.u_accname;
+        gr.u_amount = current.u_amount;
+        gr.u_closedate = current.u_closedate;
+        gr.u_stage = current.getValue('u_stage');
+        gr.u_probability = "20%";
+        gr.u_forecategory = "pipeline";
+        gr.insert();
+
+    } else if (current.operation() == 'update') {
+        var rec = new GlideRecord('x_1386762_sales_cr_forecast');
+        rec.addQuery('u_oppname', current.sys_id);
+        rec.query();
+        if (rec.next()) {
+            rec.u_opportuntiyname = current.u_oppname;
+            // rec.u_amount = current.u_grandtotalamount;
+            rec.u_stage = current.getValue('u_stage');
+
+            rec.u_accname = current.u_accname;
+            rec.u_closedate = current.u_closedate;
+            // rec.u_forecategory = 'closed';
+            // rec.u_probability = '100%';
+            if (current.u_stage == 'qualification') {
+                rec.u_probability = '40%';
+            } else if (current.u_stage == 'proposal/price quote') {
+                rec.u_probability = '60%';
+            } else if (current.u_stage == 'negotiation/review') {
+                rec.u_probability = '80%';
+            } else if (current.u_stage == 'closed won') {
+                rec.u_forecategory = 'closed';
+                rec.u_probability = '100%';
+            } else if (current.u_stage == 'closed lost') {
+                rec.u_forecategory = 'omitted';
+                rec.u_probability = '0%';
+            } else {
+                rec.u_forecategory = 'pipeline';
+            }
+            //--------------------------------------------------------
+
+            if (current.u_grandtotalamount == 0) {
+                rec.u_amount = current.u_amount;
+
+            } else {
+                rec.u_amount = current.u_grandtotalamount;
+            }
+
+            rec.update();
+
+
+        }
+
+    }
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-05-01 15:35:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ca563d1bc3fd8a50d439563ed401314f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Generate Forecast  based on Opp</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_ca563d1bc3fd8a50d439563ed401314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-05-02 09:57:47</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=ca563d1bc3fd8a50d439563ed401314f"/>
+</record_update>

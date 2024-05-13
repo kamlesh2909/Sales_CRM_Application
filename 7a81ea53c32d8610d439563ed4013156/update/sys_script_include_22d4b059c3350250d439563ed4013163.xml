@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1386762_sales_cr.Populate_Price_in_Order</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>Populate_Price_in_Order</name>
+        <script><![CDATA[var Populate_Price_in_Order = Class.create();
+Populate_Price_in_Order.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	populatePrice : function(){
+		
+		var productItemSysId = this.getParameter('productItemSysId');
+
+		var gr = new GlideRecord('x_1386762_sales_cr_product_items');
+		gr.addEncodedQuery('sys_idSTARTSWITH'+productItemSysId);
+		gr.query();
+
+		var information = {};
+
+		while(gr.next())
+		{
+			information.productPrice = gr.u_itemprice.toString();
+			information.productDesc = gr.u_prodesc.toString();
+		}
+
+		return JSON.stringify(information);
+
+
+
+	},
+
+    type: 'Populate_Price_in_Order'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-04-25 05:28:33</sys_created_on>
+        <sys_id>22d4b059c3350250d439563ed4013163</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Populate_Price_in_Order</sys_name>
+        <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+        <sys_update_name>sys_script_include_22d4b059c3350250d439563ed4013163</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-04-25 05:32:37</sys_updated_on>
+    </sys_script_include>
+</record_update>

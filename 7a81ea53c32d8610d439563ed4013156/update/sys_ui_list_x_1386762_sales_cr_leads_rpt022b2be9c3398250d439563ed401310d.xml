@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1386762_sales_cr_leads" version="2" view="RPT022b2be9c3398250d439563ed401310d">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1386762_sales_cr_leads" element="NULL" name="x_1386762_sales_cr_leads" parent="NULL" relationship="NULL" sys_domain="global" view="69039777c3fd4e50d439563ed4013153">21039777c3fd4e50d439563ed4013155</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_id>65039777c3fd4e50d439563ed4013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_firstname</element>
+            <list_id display_value="x_1386762_sales_cr_leads" element="NULL" name="x_1386762_sales_cr_leads" parent="NULL" relationship="NULL" sys_domain="global" view="69039777c3fd4e50d439563ed4013153">21039777c3fd4e50d439563ed4013155</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_id>6d039777c3fd4e50d439563ed4013156</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_lastname</element>
+            <list_id display_value="x_1386762_sales_cr_leads" element="NULL" name="x_1386762_sales_cr_leads" parent="NULL" relationship="NULL" sys_domain="global" view="69039777c3fd4e50d439563ed4013153">21039777c3fd4e50d439563ed4013155</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_id>61039777c3fd4e50d439563ed4013157</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_company</element>
+            <list_id display_value="x_1386762_sales_cr_leads" element="NULL" name="x_1386762_sales_cr_leads" parent="NULL" relationship="NULL" sys_domain="global" view="69039777c3fd4e50d439563ed4013153">21039777c3fd4e50d439563ed4013155</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_id>65039777c3fd4e50d439563ed4013157</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_phone</element>
+            <list_id display_value="x_1386762_sales_cr_leads" element="NULL" name="x_1386762_sales_cr_leads" parent="NULL" relationship="NULL" sys_domain="global" view="69039777c3fd4e50d439563ed4013153">21039777c3fd4e50d439563ed4013155</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_id>69039777c3fd4e50d439563ed4013157</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_leadstatus</element>
+            <list_id display_value="x_1386762_sales_cr_leads" element="NULL" name="x_1386762_sales_cr_leads" parent="NULL" relationship="NULL" sys_domain="global" view="69039777c3fd4e50d439563ed4013153">21039777c3fd4e50d439563ed4013155</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_id>6d039777c3fd4e50d439563ed4013157</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1386762_sales_cr_leads</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>sankalp</sys_created_by>
+            <sys_created_on>2024-05-03 11:16:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>21039777c3fd4e50d439563ed4013155</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1386762_sales_cr_leads</sys_name>
+            <sys_package display_value="Sales CRM Application" source="x_1386762_sales_cr">7a81ea53c32d8610d439563ed4013156</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Sales CRM Application">7a81ea53c32d8610d439563ed4013156</sys_scope>
+            <sys_update_name>sys_ui_list_x_1386762_sales_cr_leads_RPT022b2be9c3398250d439563ed401310d</sys_update_name>
+            <sys_updated_by>sankalp</sys_updated_by>
+            <sys_updated_on>2024-05-03 11:16:45</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt022b2be9c3398250d439563ed401310d" name="RPT022b2be9c3398250d439563ed401310d">69039777c3fd4e50d439563ed4013153</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

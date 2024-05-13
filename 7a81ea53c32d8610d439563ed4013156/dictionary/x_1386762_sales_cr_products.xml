@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e002ea8c3fd0e10d439563ed4013135" extends="task" label="Products" max_length="40" name="x_1386762_sales_cr_products" type="collection">
+        <element attributes="edge_encryption_enabled=true" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;// Add your code here&#13;&#10;&#9;&#13;&#10;&#9;&#13;&#10;&#9;return '';  // return the calculated value&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;})(current);" choice="3" default="128gb" label="Choose Storage" max_length="40" name="u_choosestorage" type="string">
+            <choice>
+                <element inactive_on_update="false" label="128 GB" sequence="0" value="128gb"/>
+                <element inactive_on_update="false" label="256 GB" sequence="1" value="256gb"/>
+                <element inactive_on_update="false" label="512 GB" sequence="2" value="512gb"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Product Brand" max_length="40" name="u_probrand" type="string"/>
+        <element attributes="edge_encryption_enabled=true" display="true" label="Product Category" max_length="40" name="u_procategory" reference_qual="null" reference_qual_condition="null" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Description" max_length="255" name="u_prodesc" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Name" max_length="40" name="u_productname" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Price" max_length="40" name="u_productprice" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Product Item" max_length="40" name="u_proitem" type="string"/>
+        <element attributes="omit_sys_original=true,serializer=com.glide.script.PriceXMLSerializer" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;    // Add your code here&#13;&#10;   &#13;&#10;&#13;&#10;    // return the calculated value&#13;&#10;&#13;&#10;})(current);" label="Product Price" max_length="20" name="u_proprice" type="price" virtual="true"/>
+    </element>
+</database>
